@@ -1,0 +1,37 @@
+import ratemyprofessor
+import pandas as pd
+import time
+
+# Get TCU from RMP
+school = ratemyprofessor.get_school_by_name("Texas Christian University")
+
+if school is None:
+    print("School not found. Check the name and try again.")
+else:
+    print(f"Found: {school.name}")
+    
+    # Pull all professors
+    professors = ratemyprofessor.get_professors_by_school(school)
+    
+    print(f"Found {len(professors)} professors. Collecting data...")
+    
+    data = []
+    for prof in professors:
+        try:
+            data.append({
+                "name": prof.name,
+                "department": prof.department,
+                "rating": prof.rating,
+                "difficulty": prof.difficulty,
+                "num_ratings": prof.num_ratings,
+                "would_take_again": prof.would_take_again,
+            })
+            time.sleep(0.5)  # be polite to the server
+        except Exception as e:
+            print(f"Skipped {prof.name}: {e}")
+            continue
+
+    # Save to CSV
+    df = pd.DataFrame(data)
+    df.to_csv("tcu_rmp_data.csv", index=False)
+    print(f"Done. Saved {len(df)} professors to tcu_rmp_data.csv")
