@@ -1,0 +1,53 @@
+course_number,course_title,department,credits,semester_offered,prerequisite,typically_full
+COSC 10403,Introduction to Programming,Computer Science,3,"Fall, Spring",None,Yes
+COSC 20803,Data Structures,Computer Science,3,"Fall, Spring",COSC 10403,Yes
+COSC 30103,Algorithms,Computer Science,3,Fall,COSC 20803,No
+COSC 30203,Operating Systems,Computer Science,3,Spring,COSC 20803,No
+COSC 40103,Software Engineering,Computer Science,3,"Fall, Spring",COSC 30103,Yes
+COSC 40203,Machine Learning,Computer Science,3,Fall,COSC 30103,No
+MATH 10524,Calculus I,Mathematics,4,"Fall, Spring",None,Yes
+MATH 10534,Calculus II,Mathematics,4,"Fall, Spring",MATH 10524,Yes
+MATH 20524,Calculus III,Mathematics,4,"Fall, Spring",MATH 10534,No
+MATH 20743,Linear Algebra,Mathematics,3,"Fall, Spring",MATH 10534,No
+MATH 30213,Differential Equations,Mathematics,3,Fall,MATH 20524,No
+MATH 40213,Real Analysis,Mathematics,3,Spring,MATH 30213,No
+BIOL 10403,General Biology I,Biology,3,"Fall, Spring",None,Yes
+BIOL 10413,General Biology II,Biology,3,"Fall, Spring",BIOL 10403,Yes
+BIOL 20303,Cell Biology,Biology,3,Fall,BIOL 10413,No
+BIOL 20403,Genetics,Biology,3,"Fall, Spring",BIOL 10413,Yes
+BIOL 30303,Ecology,Biology,3,Spring,BIOL 20403,No
+BIOL 40403,Evolutionary Biology,Biology,3,Fall,BIOL 30303,No
+CHEM 10403,General Chemistry I,Chemistry,3,"Fall, Spring",None,Yes
+CHEM 10413,General Chemistry II,Chemistry,3,"Fall, Spring",CHEM 10403,Yes
+CHEM 20303,Organic Chemistry I,Chemistry,3,"Fall, Spring",CHEM 10413,Yes
+CHEM 20313,Organic Chemistry II,Chemistry,3,"Fall, Spring",CHEM 20303,Yes
+CHEM 30303,Analytical Chemistry,Chemistry,3,Fall,CHEM 20313,No
+CHEM 40403,Biochemistry,Chemistry,3,Spring,CHEM 30303,No
+PHYS 10403,General Physics I,Physics,3,"Fall, Spring",None,Yes
+PHYS 10413,General Physics II,Physics,3,"Fall, Spring",PHYS 10403,Yes
+PHYS 20403,Modern Physics,Physics,3,Fall,PHYS 10413,No
+PHYS 30303,Electromagnetism,Physics,3,Spring,PHYS 20403,No
+PHYS 40303,Quantum Mechanics,Physics,3,Fall,PHYS 30303,No
+ENGL 10803,Composition I,English,3,"Fall, Spring",None,Yes
+ENGL 10813,Composition II,English,3,"Fall, Spring",ENGL 10803,Yes
+ENGL 20503,Introduction to Literature,English,3,"Fall, Spring",None,Yes
+ENGL 30503,American Literature,English,3,Fall,ENGL 20503,No
+ENGL 40503,Literary Theory,English,3,Spring,ENGL 30503,No
+HIST 10103,World History I,History,3,"Fall, Spring",None,Yes
+HIST 10113,World History II,History,3,"Fall, Spring",None,Yes
+HIST 20203,American History,History,3,"Fall, Spring",None,Yes
+HIST 30303,Modern European History,History,3,Fall,HIST 10113,No
+HIST 40403,Historical Methods,History,3,Spring,HIST 20203,No
+PSYC 10213,Introduction to Psychology,Psychology,3,"Fall, Spring",None,Yes
+PSYC 20313,Research Methods,Psychology,3,"Fall, Spring",PSYC 10213,Yes
+PSYC 30313,Abnormal Psychology,Psychology,3,"Fall, Spring",PSYC 10213,Yes
+PSYC 40313,Cognitive Psychology,Psychology,3,Fall,PSYC 20313,No
+SOCI 10213,Introduction to Sociology,Sociology,3,"Fall, Spring",None,Yes
+SOCI 20313,Social Research Methods,Sociology,3,Fall,SOCI 10213,No
+SOCI 30313,Social Stratification,Sociology,3,Spring,SOCI 20313,No
+SOCI 40313,Urban Sociology,Sociology,3,Fall,SOCI 30313,No
+ECON 10213,Principles of Microeconomics,Economics,3,"Fall, Spring",None,Yes
+ECON 10223,Principles of Macroeconomics,Economics,3,"Fall, Spring",None,Yes
+ECON 20313,Intermediate Microeconomics,Economics,3,"Fall, Spring",ECON 10213,No
+ECON 30313,Econometrics,Economics,3,Fall,ECON 20313,No
+ECON 40313,Development Economics,Economics,3,Spring,ECON 30313,No

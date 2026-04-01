@@ -1,0 +1,18 @@
+{
+  "rated_professors": 60,
+  "departments_covered": 10,
+  "departments_uncovered": 0,
+  "covered_list": [
+    "Biology",
+    "Chemistry",
+    "Computer Science",
+    "Economics",
+    "English",
+    "History",
+    "Mathematics",
+    "Physics",
+    "Psychology",
+    "Sociology"
+  ],
+  "uncovered_list": []
+}
