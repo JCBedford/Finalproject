@@ -1,0 +1,61 @@
+professor_name,department,overall_rating,difficulty,num_ratings,would_take_again,tags
+"Smith, John",Computer Science,4.2,3.1,45,82,Gives good feedback|Caring|Respected
+"Johnson, Mary",Mathematics,3.8,4.0,30,60,Tough grader|Lots of homework
+"Williams, Robert",Biology,4.5,2.9,67,91,Amazing lectures|Inspirational
+"Brown, Patricia",Chemistry,3.2,4.3,22,45,Skip class? You won't pass|Clear grading criteria
+"Jones, Michael",Physics,3.9,3.7,38,70,Accessible outside class|Test heavy
+"Davis, Linda",English,4.7,2.5,55,95,Hilarious|Caring|Amazing lectures
+"Miller, David",History,4.1,2.8,42,80,Gives good feedback|Accessible outside class
+"Wilson, Barbara",Psychology,4.4,3.0,60,88,Amazing lectures|Caring
+"Moore, James",Sociology,3.6,3.5,28,65,Clear grading criteria|Tough grader
+"Taylor, Jennifer",Economics,4.0,3.9,35,72,Lots of homework|Test heavy
+"Anderson, Charles",Computer Science,4.6,3.2,50,90,Hilarious|Amazing lectures|Inspirational
+"Thomas, Susan",Mathematics,3.5,4.1,20,55,Tough grader|Skip class? You won't pass
+"Jackson, Joseph",Biology,4.3,2.7,48,85,Caring|Gives good feedback
+"White, Margaret",Chemistry,3.7,4.0,25,58,Clear grading criteria|Lots of homework
+"Harris, Christopher",Physics,4.1,3.5,40,75,Accessible outside class|Respected
+"Martin, Sarah",English,4.8,2.3,70,97,Hilarious|Inspirational|Amazing lectures
+"Garcia, Daniel",History,3.9,3.2,33,68,Gives good feedback|Caring
+"Martinez, Nancy",Psychology,4.5,2.8,58,92,Amazing lectures|Caring|Respected
+"Robinson, Paul",Sociology,3.4,3.8,18,50,Tough grader|Test heavy
+"Clark, Karen",Economics,4.2,3.6,44,78,Clear grading criteria|Accessible outside class
+"Rodriguez, Mark",Computer Science,3.8,3.9,32,65,Lots of homework|Test heavy
+"Lewis, Betty",Mathematics,4.6,2.6,62,93,Inspirational|Amazing lectures
+"Lee, Donald",Biology,3.3,4.2,19,48,Tough grader|Skip class? You won't pass
+"Walker, Dorothy",Chemistry,4.0,3.3,36,73,Gives good feedback|Respected
+"Hall, Steven",Physics,4.4,3.1,52,87,Amazing lectures|Caring
+"Allen, Sandra",English,3.7,2.9,27,62,Accessible outside class|Clear grading criteria
+"Young, George",History,4.2,3.0,41,79,Caring|Gives good feedback
+"Hernandez, Amanda",Psychology,4.6,2.7,65,94,Hilarious|Amazing lectures|Inspirational
+"King, Edward",Sociology,3.5,3.6,21,52,Clear grading criteria|Tough grader
+"Wright, Ashley",Economics,4.3,3.4,47,83,Respected|Accessible outside class
+"Lopez, Andrew",Computer Science,4.7,2.4,72,96,Amazing lectures|Inspirational|Hilarious
+"Hill, Kimberly",Mathematics,3.6,4.0,24,57,Tough grader|Lots of homework
+"Scott, Joshua",Biology,4.4,2.8,55,89,Caring|Gives good feedback
+"Green, Emily",Chemistry,3.8,3.7,31,66,Test heavy|Clear grading criteria
+"Adams, Brian",Physics,4.0,3.3,38,74,Accessible outside class|Respected
+"Baker, Megan",English,4.9,2.1,80,98,Hilarious|Amazing lectures|Inspirational|Caring
+"Gonzalez, Kevin",History,3.8,3.1,29,63,Gives good feedback|Accessible outside class
+"Nelson, Melissa",Psychology,4.5,2.9,60,91,Amazing lectures|Caring|Respected
+"Carter, Timothy",Sociology,3.3,3.9,16,46,Tough grader|Skip class? You won't pass
+"Mitchell, Laura",Economics,4.1,3.5,43,77,Clear grading criteria|Lots of homework
+"Perez, Nathan",Computer Science,4.5,3.0,58,88,Amazing lectures|Gives good feedback
+"Roberts, Rebecca",Mathematics,4.0,3.8,35,70,Accessible outside class|Test heavy
+"Turner, Justin",Biology,3.7,3.4,26,60,Clear grading criteria|Tough grader
+"Phillips, Stephanie",Chemistry,4.2,3.1,46,82,Respected|Gives good feedback
+"Campbell, Brandon",Physics,4.3,2.9,53,86,Caring|Amazing lectures
+"Parker, Christine",English,3.6,3.0,22,55,Accessible outside class|Clear grading criteria
+"Evans, Patrick",History,4.4,2.7,59,90,Inspirational|Hilarious
+"Edwards, Nicole",Psychology,3.9,3.2,37,69,Gives good feedback|Caring
+"Collins, Russell",Sociology,4.0,3.4,40,74,Amazing lectures|Respected
+"Stewart, Angela",Economics,4.2,3.0,44,80,Clear grading criteria|Accessible outside class
+"Sanchez, Samuel",Computer Science,3.5,4.1,18,48,Tough grader|Lots of homework
+"Morris, Brittany",Mathematics,4.7,2.5,68,95,Amazing lectures|Inspirational
+"Rogers, Lawrence",Biology,4.1,3.1,42,78,Gives good feedback|Caring
+"Reed, Tammy",Chemistry,3.4,4.2,17,44,Skip class? You won't pass|Tough grader
+"Cook, Frank",Physics,4.5,2.8,62,92,Amazing lectures|Respected
+"Morgan, Rachel",English,4.8,2.2,75,97,Hilarious|Inspirational|Caring
+"Bell, Wayne",History,3.7,3.3,28,62,Clear grading criteria|Accessible outside class
+"Murphy, Sharon",Psychology,4.6,2.6,66,94,Amazing lectures|Caring|Inspirational
+"Bailey, Jack",Sociology,3.2,4.0,14,42,Tough grader|Test heavy
+"Rivera, Denise",Economics,4.3,3.2,49,84,Respected|Gives good feedback

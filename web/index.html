@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FrogPath – TCU Degree Planning Tool</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ── Header ──────────────────────────────────────────────── -->
+  <header>
+    <div class="header-inner">
+      <span class="logo">🐸 FrogPath</span>
+      <nav>
+        <a href="#professors">Professors</a>
+        <a href="#departments">Departments</a>
+        <a href="#courses">Courses</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── Hero ────────────────────────────────────────────────── -->
+  <section class="hero">
+    <h1>Plan Your Path at TCU</h1>
+    <p>Data-driven insights into courses, professors, and degree requirements
+       powered by Rate My Professor &amp; the TCU course catalog.</p>
+    <a class="btn" href="#professors">Explore Professors</a>
+  </section>
+
+  <!-- ── Stats Banner ─────────────────────────────────────────── -->
+  <section class="stats-banner" id="stats">
+    <div class="stat-card" id="stat-profs">
+      <span class="stat-number" id="num-profs">–</span>
+      <span class="stat-label">Rated Professors</span>
+    </div>
+    <div class="stat-card" id="stat-depts">
+      <span class="stat-number" id="num-depts">–</span>
+      <span class="stat-label">Departments Covered</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number" id="avg-rating">–</span>
+      <span class="stat-label">Average Rating</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-number" id="avg-difficulty">–</span>
+      <span class="stat-label">Average Difficulty</span>
+    </div>
+  </section>
+
+  <!-- ── Professor Search ──────────────────────────────────────── -->
+  <section class="section" id="professors">
+    <h2>Professor Ratings</h2>
+
+    <div class="controls">
+      <input id="search-input" type="text" placeholder="Search by name or department…" />
+      <select id="dept-filter">
+        <option value="">All Departments</option>
+      </select>
+      <select id="sort-select">
+        <option value="rating-desc">Highest Rating</option>
+        <option value="rating-asc">Lowest Rating</option>
+        <option value="difficulty-asc">Easiest First</option>
+        <option value="difficulty-desc">Hardest First</option>
+        <option value="reviews-desc">Most Reviews</option>
+      </select>
+    </div>
+
+    <div id="prof-grid" class="card-grid">
+      <!-- Populated by JS -->
+      <p class="loading">Loading professor data…</p>
+    </div>
+  </section>
+
+  <!-- ── Department Charts ─────────────────────────────────────── -->
+  <section class="section section-alt" id="departments">
+    <h2>Department Breakdown</h2>
+    <div class="chart-grid">
+      <div class="chart-box">
+        <h3>Average Rating by Department</h3>
+        <canvas id="chart-ratings"></canvas>
+      </div>
+      <div class="chart-box">
+        <h3>Average Difficulty by Department</h3>
+        <canvas id="chart-difficulty"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Course Catalog ─────────────────────────────────────────── -->
+  <section class="section" id="courses">
+    <h2>Course Catalog</h2>
+
+    <div class="controls">
+      <input id="course-search" type="text" placeholder="Search courses…" />
+      <select id="course-dept-filter">
+        <option value="">All Departments</option>
+      </select>
+      <select id="semester-filter">
+        <option value="">Any Semester</option>
+        <option value="Fall">Fall</option>
+        <option value="Spring">Spring</option>
+      </select>
+    </div>
+
+    <div class="table-wrap">
+      <table id="course-table">
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Title</th>
+            <th>Department</th>
+            <th>Credits</th>
+            <th>Offered</th>
+            <th>Prerequisite</th>
+            <th>Typically Full?</th>
+          </tr>
+        </thead>
+        <tbody id="course-tbody">
+          <tr><td colspan="7" class="loading">Loading course data…</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ── About ──────────────────────────────────────────────────── -->
+  <section class="section section-alt" id="about">
+    <h2>About FrogPath</h2>
+    <div class="about-content">
+      <p>FrogPath is a data-driven degree planning tool built for TCU students
+         as part of a Digital Culture and Data Analytics capstone project.</p>
+      <p>The tool combines two publicly available datasets:</p>
+      <ul>
+        <li><strong>TCU Course Catalog</strong> – course availability, prerequisites,
+            credits, and scheduling information.</li>
+        <li><strong>Rate My Professor</strong> – instructor ratings, difficulty scores,
+            and student feedback tags filtered to TCU faculty.</li>
+      </ul>
+      <p>Data is analyzed with Python (pandas, matplotlib) and exported as JSON
+         files consumed by this static front-end. The site is hosted on
+         <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.</p>
+      <h3>Project Structure</h3>
+      <pre class="code-block">Finalproject/
+├── data/
+│   ├── raw/           ← original CSV datasets
+│   └── processed/     ← cleaned intermediate files
+├── analysis/
+│   ├── rmp_analysis.py         ← standalone Python script
+│   └── rmp_exploration.ipynb   ← Jupyter notebook
+├── outputs/
+│   ├── rmp_clean.json
+│   ├── dept_avg_ratings.json
+│   ├── dept_avg_difficulty.json
+│   ├── rated_vs_unrated.json
+│   └── figures/       ← saved chart images
+└── web/               ← this front-end (GitHub Pages root)
+    ├── index.html
+    ├── css/styles.css
+    └── js/app.js</pre>
+    </div>
+  </section>
+
+  <!-- ── Footer ──────────────────────────────────────────────────── -->
+  <footer>
+    <p>🐸 FrogPath · TCU DCDA Capstone ·
+       Data sources: TCU Course Catalog &amp; Rate My Professor</p>
+  </footer>
+
+  <!-- Chart.js CDN (no build step required) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
