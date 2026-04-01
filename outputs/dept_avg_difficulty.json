@@ -1,0 +1,52 @@
+[
+  {
+    "department": "Chemistry",
+    "avg_difficulty": 3.77,
+    "count": 6
+  },
+  {
+    "department": "Sociology",
+    "avg_difficulty": 3.7,
+    "count": 6
+  },
+  {
+    "department": "Mathematics",
+    "avg_difficulty": 3.5,
+    "count": 6
+  },
+  {
+    "department": "Economics",
+    "avg_difficulty": 3.43,
+    "count": 6
+  },
+  {
+    "department": "Computer Science",
+    "avg_difficulty": 3.28,
+    "count": 6
+  },
+  {
+    "department": "Physics",
+    "avg_difficulty": 3.22,
+    "count": 6
+  },
+  {
+    "department": "Biology",
+    "avg_difficulty": 3.18,
+    "count": 6
+  },
+  {
+    "department": "History",
+    "avg_difficulty": 3.02,
+    "count": 6
+  },
+  {
+    "department": "Psychology",
+    "avg_difficulty": 2.87,
+    "count": 6
+  },
+  {
+    "department": "English",
+    "avg_difficulty": 2.5,
+    "count": 6
+  }
+]

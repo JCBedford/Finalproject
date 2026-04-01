@@ -1,0 +1,443 @@
+[
+  {
+    "course_number": "COSC 10403",
+    "course_title": "Introduction to Programming",
+    "department": "Computer Science",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "COSC 20803",
+    "course_title": "Data Structures",
+    "department": "Computer Science",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "COSC 10403",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "COSC 30103",
+    "course_title": "Algorithms",
+    "department": "Computer Science",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "COSC 20803",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "COSC 30203",
+    "course_title": "Operating Systems",
+    "department": "Computer Science",
+    "credits": 3,
+    "semester_offered": "Spring",
+    "prerequisite": "COSC 20803",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "COSC 40103",
+    "course_title": "Software Engineering",
+    "department": "Computer Science",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "COSC 30103",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "COSC 40203",
+    "course_title": "Machine Learning",
+    "department": "Computer Science",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "COSC 30103",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "MATH 10524",
+    "course_title": "Calculus I",
+    "department": "Mathematics",
+    "credits": 4,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "MATH 10534",
+    "course_title": "Calculus II",
+    "department": "Mathematics",
+    "credits": 4,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "MATH 10524",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "MATH 30213",
+    "course_title": "Differential Equations",
+    "department": "Mathematics",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "MATH 20524",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "MATH 40213",
+    "course_title": "Real Analysis",
+    "department": "Mathematics",
+    "credits": 3,
+    "semester_offered": "Spring",
+    "prerequisite": "MATH 30213",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "BIOL 10403",
+    "course_title": "General Biology I",
+    "department": "Biology",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "BIOL 10413",
+    "course_title": "General Biology II",
+    "department": "Biology",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "BIOL 10403",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "BIOL 20303",
+    "course_title": "Cell Biology",
+    "department": "Biology",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "BIOL 10413",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "BIOL 20403",
+    "course_title": "Genetics",
+    "department": "Biology",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "BIOL 10413",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "BIOL 30303",
+    "course_title": "Ecology",
+    "department": "Biology",
+    "credits": 3,
+    "semester_offered": "Spring",
+    "prerequisite": "BIOL 20403",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "BIOL 40403",
+    "course_title": "Evolutionary Biology",
+    "department": "Biology",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "BIOL 30303",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "CHEM 10403",
+    "course_title": "General Chemistry I",
+    "department": "Chemistry",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "CHEM 10413",
+    "course_title": "General Chemistry II",
+    "department": "Chemistry",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "CHEM 10403",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "CHEM 20303",
+    "course_title": "Organic Chemistry I",
+    "department": "Chemistry",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "CHEM 10413",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "CHEM 20313",
+    "course_title": "Organic Chemistry II",
+    "department": "Chemistry",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "CHEM 20303",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "CHEM 30303",
+    "course_title": "Analytical Chemistry",
+    "department": "Chemistry",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "CHEM 20313",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "CHEM 40403",
+    "course_title": "Biochemistry",
+    "department": "Chemistry",
+    "credits": 3,
+    "semester_offered": "Spring",
+    "prerequisite": "CHEM 30303",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "PHYS 10403",
+    "course_title": "General Physics I",
+    "department": "Physics",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "PHYS 10413",
+    "course_title": "General Physics II",
+    "department": "Physics",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "PHYS 10403",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "PHYS 20403",
+    "course_title": "Modern Physics",
+    "department": "Physics",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "PHYS 10413",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "PHYS 30303",
+    "course_title": "Electromagnetism",
+    "department": "Physics",
+    "credits": 3,
+    "semester_offered": "Spring",
+    "prerequisite": "PHYS 20403",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "PHYS 40303",
+    "course_title": "Quantum Mechanics",
+    "department": "Physics",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "PHYS 30303",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "ENGL 10803",
+    "course_title": "Composition I",
+    "department": "English",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "ENGL 10813",
+    "course_title": "Composition II",
+    "department": "English",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "ENGL 10803",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "ENGL 20503",
+    "course_title": "Introduction to Literature",
+    "department": "English",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "ENGL 30503",
+    "course_title": "American Literature",
+    "department": "English",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "ENGL 20503",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "ENGL 40503",
+    "course_title": "Literary Theory",
+    "department": "English",
+    "credits": 3,
+    "semester_offered": "Spring",
+    "prerequisite": "ENGL 30503",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "HIST 10103",
+    "course_title": "World History I",
+    "department": "History",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "HIST 10113",
+    "course_title": "World History II",
+    "department": "History",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "HIST 20203",
+    "course_title": "American History",
+    "department": "History",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "HIST 30303",
+    "course_title": "Modern European History",
+    "department": "History",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "HIST 10113",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "HIST 40403",
+    "course_title": "Historical Methods",
+    "department": "History",
+    "credits": 3,
+    "semester_offered": "Spring",
+    "prerequisite": "HIST 20203",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "PSYC 10213",
+    "course_title": "Introduction to Psychology",
+    "department": "Psychology",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "PSYC 20313",
+    "course_title": "Research Methods",
+    "department": "Psychology",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "PSYC 10213",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "PSYC 30313",
+    "course_title": "Abnormal Psychology",
+    "department": "Psychology",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "PSYC 10213",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "PSYC 40313",
+    "course_title": "Cognitive Psychology",
+    "department": "Psychology",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "PSYC 20313",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "SOCI 10213",
+    "course_title": "Introduction to Sociology",
+    "department": "Sociology",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "SOCI 20313",
+    "course_title": "Social Research Methods",
+    "department": "Sociology",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "SOCI 10213",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "SOCI 30313",
+    "course_title": "Social Stratification",
+    "department": "Sociology",
+    "credits": 3,
+    "semester_offered": "Spring",
+    "prerequisite": "SOCI 20313",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "SOCI 40313",
+    "course_title": "Urban Sociology",
+    "department": "Sociology",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "SOCI 30313",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "ECON 10213",
+    "course_title": "Principles of Microeconomics",
+    "department": "Economics",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "ECON 10223",
+    "course_title": "Principles of Macroeconomics",
+    "department": "Economics",
+    "credits": 3,
+    "semester_offered": "Fall, Spring",
+    "prerequisite": "None",
+    "typically_full": "Yes"
+  },
+  {
+    "course_number": "ECON 30313",
+    "course_title": "Econometrics",
+    "department": "Economics",
+    "credits": 3,
+    "semester_offered": "Fall",
+    "prerequisite": "ECON 20313",
+    "typically_full": "No"
+  },
+  {
+    "course_number": "ECON 40313",
+    "course_title": "Development Economics",
+    "department": "Economics",
+    "credits": 3,
+    "semester_offered": "Spring",
+    "prerequisite": "ECON 30313",
+    "typically_full": "No"
+  }
+]
