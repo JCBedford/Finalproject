@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FrogPath – TCU Degree Planning Tool</title>
+  <title>FrogPath – Criminal Justice Explorer</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -14,8 +14,8 @@
       <span class="logo">🐸 FrogPath</span>
       <nav>
         <a href="#professors">Professors</a>
-        <a href="#departments">Departments</a>
-        <a href="#courses">Courses</a>
+        <a href="#insights">Insights</a>
+        <a href="#classes">Classes</a>
         <a href="#about">About</a>
       </nav>
     </div>
@@ -23,9 +23,9 @@
 
   <!-- ── Hero ────────────────────────────────────────────────── -->
   <section class="hero">
-    <h1>Plan Your Path at TCU</h1>
-    <p>Data-driven insights into courses, professors, and degree requirements
-       powered by Rate My Professor &amp; the TCU course catalog.</p>
+     <h1>Criminal Justice at TCU</h1>
+     <p>Explore criminal justice class sections, professor ratings, and schedule details
+       from the dataset you uploaded.</p>
     <a class="btn" href="#professors">Explore Professors</a>
   </section>
 
@@ -33,11 +33,11 @@
   <section class="stats-banner" id="stats">
     <div class="stat-card" id="stat-profs">
       <span class="stat-number" id="num-profs">–</span>
-      <span class="stat-label">Rated Professors</span>
+      <span class="stat-label">Unique Professors</span>
     </div>
     <div class="stat-card" id="stat-depts">
       <span class="stat-number" id="num-depts">–</span>
-      <span class="stat-label">Departments Covered</span>
+      <span class="stat-label">Class Sections</span>
     </div>
     <div class="stat-card">
       <span class="stat-number" id="avg-rating">–</span>
@@ -51,19 +51,19 @@
 
   <!-- ── Professor Search ──────────────────────────────────────── -->
   <section class="section" id="professors">
-    <h2>Professor Ratings</h2>
+    <h2>Criminal Justice Professors</h2>
 
     <div class="controls">
-      <input id="search-input" type="text" placeholder="Search by name or department…" />
+      <input id="search-input" type="text" placeholder="Search by professor or course…" />
       <select id="dept-filter">
-        <option value="">All Departments</option>
+        <option value="">All Courses</option>
       </select>
       <select id="sort-select">
         <option value="rating-desc">Highest Rating</option>
         <option value="rating-asc">Lowest Rating</option>
         <option value="difficulty-asc">Easiest First</option>
         <option value="difficulty-desc">Hardest First</option>
-        <option value="reviews-desc">Most Reviews</option>
+        <option value="sections-desc">Most Sections</option>
       </select>
     </div>
 
@@ -73,34 +73,34 @@
     </div>
   </section>
 
-  <!-- ── Department Charts ─────────────────────────────────────── -->
-  <section class="section section-alt" id="departments">
-    <h2>Department Breakdown</h2>
+  <!-- ── Professor Insights ─────────────────────────────────────── -->
+  <section class="section section-alt" id="insights">
+    <h2>Professor Insights</h2>
     <div class="chart-grid">
       <div class="chart-box">
-        <h3>Average Rating by Department</h3>
+        <h3>Top Rated Professors</h3>
         <canvas id="chart-ratings"></canvas>
       </div>
       <div class="chart-box">
-        <h3>Average Difficulty by Department</h3>
+        <h3>Easiest Professors</h3>
         <canvas id="chart-difficulty"></canvas>
       </div>
     </div>
   </section>
 
-  <!-- ── Course Catalog ─────────────────────────────────────────── -->
-  <section class="section" id="courses">
-    <h2>Course Catalog</h2>
+  <!-- ── Class Schedule ─────────────────────────────────────────── -->
+  <section class="section" id="classes">
+    <h2>Class Schedule</h2>
 
     <div class="controls">
-      <input id="course-search" type="text" placeholder="Search courses…" />
+      <input id="course-search" type="text" placeholder="Search classes or professors…" />
       <select id="course-dept-filter">
-        <option value="">All Departments</option>
+        <option value="">All Formats</option>
       </select>
       <select id="semester-filter">
-        <option value="">Any Semester</option>
-        <option value="Fall">Fall</option>
-        <option value="Spring">Spring</option>
+        <option value="">Any Status</option>
+        <option value="Open">Open</option>
+        <option value="DeptPermit">Dept Permit</option>
       </select>
     </div>
 
@@ -109,16 +109,20 @@
         <thead>
           <tr>
             <th>Course</th>
+            <th>Section</th>
             <th>Title</th>
-            <th>Department</th>
-            <th>Credits</th>
-            <th>Offered</th>
-            <th>Prerequisite</th>
-            <th>Typically Full?</th>
+            <th>Format</th>
+            <th>Schedule</th>
+            <th>Status</th>
+            <th>Enrollment</th>
+            <th>Professor</th>
+            <th>Rating</th>
+            <th>Difficulty</th>
+            <th>Would Take Again</th>
           </tr>
         </thead>
         <tbody id="course-tbody">
-          <tr><td colspan="7" class="loading">Loading course data…</td></tr>
+          <tr><td colspan="11" class="loading">Loading class data…</td></tr>
         </tbody>
       </table>
     </div>
@@ -128,17 +132,14 @@
   <section class="section section-alt" id="about">
     <h2>About FrogPath</h2>
     <div class="about-content">
-      <p>FrogPath is a data-driven degree planning tool built for TCU students
-         as part of a Digital Culture and Data Analytics capstone project.</p>
-      <p>The tool combines two publicly available datasets:</p>
+      <p>FrogPath is now focused on Criminal Justice classes and professors pulled
+        from the CSV you uploaded.</p>
+      <p>The tool combines section-level class data with professor ratings and difficulty scores.</p>
       <ul>
-        <li><strong>TCU Course Catalog</strong> – course availability, prerequisites,
-            credits, and scheduling information.</li>
-        <li><strong>Rate My Professor</strong> – instructor ratings, difficulty scores,
-            and student feedback tags filtered to TCU faculty.</li>
+        <li><strong>Class sections</strong> – course code, title, meeting time, status, enrollment cap, and seat count.</li>
+        <li><strong>Professor ratings</strong> – overall rating, difficulty, and would-take-again scores where available.</li>
       </ul>
-      <p>Data is analyzed with Python (pandas, matplotlib) and exported as JSON
-         files consumed by this static front-end. The site is hosted on
+      <p>Data is analyzed with Python and exported as JSON files consumed by this static front-end. The site is hosted on
          <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.</p>
       <h3>Project Structure</h3>
       <pre class="code-block">Finalproject/
@@ -163,8 +164,8 @@
 
   <!-- ── Footer ──────────────────────────────────────────────────── -->
   <footer>
-    <p>🐸 FrogPath · TCU DCDA Capstone ·
-       Data sources: TCU Course Catalog &amp; Rate My Professor</p>
+     <p>🐸 FrogPath · Criminal Justice focus ·
+       Data source: uploaded Criminal Justice CSV</p>
   </footer>
 
   <!-- Chart.js CDN (no build step required) -->

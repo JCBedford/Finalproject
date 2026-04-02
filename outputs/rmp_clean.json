@@ -1,542 +1,190 @@
 [
   {
-    "professor_name": "Smith, John",
-    "department": "Computer Science",
-    "overall_rating": 4.2,
-    "difficulty": 3.1,
-    "num_ratings": 45,
-    "would_take_again": 82,
-    "tags": "Gives good feedback|Caring|Respected"
-  },
-  {
-    "professor_name": "Johnson, Mary",
-    "department": "Mathematics",
-    "overall_rating": 3.8,
-    "difficulty": 4.0,
-    "num_ratings": 30,
-    "would_take_again": 60,
-    "tags": "Tough grader|Lots of homework"
-  },
-  {
-    "professor_name": "Williams, Robert",
-    "department": "Biology",
-    "overall_rating": 4.5,
-    "difficulty": 2.9,
-    "num_ratings": 67,
-    "would_take_again": 91,
-    "tags": "Amazing lectures|Inspirational"
-  },
-  {
-    "professor_name": "Brown, Patricia",
-    "department": "Chemistry",
-    "overall_rating": 3.2,
-    "difficulty": 4.3,
-    "num_ratings": 22,
-    "would_take_again": 45,
-    "tags": "Skip class? You won't pass|Clear grading criteria"
-  },
-  {
-    "professor_name": "Jones, Michael",
-    "department": "Physics",
-    "overall_rating": 3.9,
-    "difficulty": 3.7,
-    "num_ratings": 38,
-    "would_take_again": 70,
-    "tags": "Accessible outside class|Test heavy"
-  },
-  {
-    "professor_name": "Davis, Linda",
-    "department": "English",
-    "overall_rating": 4.7,
-    "difficulty": 2.5,
-    "num_ratings": 55,
-    "would_take_again": 95,
-    "tags": "Hilarious|Caring|Amazing lectures"
-  },
-  {
-    "professor_name": "Miller, David",
-    "department": "History",
-    "overall_rating": 4.1,
-    "difficulty": 2.8,
-    "num_ratings": 42,
-    "would_take_again": 80,
-    "tags": "Gives good feedback|Accessible outside class"
-  },
-  {
-    "professor_name": "Wilson, Barbara",
-    "department": "Psychology",
-    "overall_rating": 4.4,
-    "difficulty": 3.0,
-    "num_ratings": 60,
-    "would_take_again": 88,
-    "tags": "Amazing lectures|Caring"
-  },
-  {
-    "professor_name": "Moore, James",
-    "department": "Sociology",
-    "overall_rating": 3.6,
-    "difficulty": 3.5,
-    "num_ratings": 28,
-    "would_take_again": 65,
-    "tags": "Clear grading criteria|Tough grader"
-  },
-  {
-    "professor_name": "Taylor, Jennifer",
-    "department": "Economics",
-    "overall_rating": 4.0,
-    "difficulty": 3.9,
-    "num_ratings": 35,
-    "would_take_again": 72,
-    "tags": "Lots of homework|Test heavy"
-  },
-  {
-    "professor_name": "Anderson, Charles",
-    "department": "Computer Science",
-    "overall_rating": 4.6,
-    "difficulty": 3.2,
-    "num_ratings": 50,
-    "would_take_again": 90,
-    "tags": "Hilarious|Amazing lectures|Inspirational"
-  },
-  {
-    "professor_name": "Thomas, Susan",
-    "department": "Mathematics",
-    "overall_rating": 3.5,
-    "difficulty": 4.1,
-    "num_ratings": 20,
-    "would_take_again": 55,
-    "tags": "Tough grader|Skip class? You won't pass"
-  },
-  {
-    "professor_name": "Jackson, Joseph",
-    "department": "Biology",
-    "overall_rating": 4.3,
+    "professor_name": "Brae Young",
+    "department": "Criminal Justice",
+    "overall_rating": 5.0,
     "difficulty": 2.7,
-    "num_ratings": 48,
-    "would_take_again": 85,
-    "tags": "Caring|Gives good feedback"
+    "num_ratings": 3,
+    "would_take_again": 100.0,
+    "tags": "Applied Research & Policy 1|Research Design in CRJU|Youthful Offenders",
+    "courses_taught": [
+      "Applied Research & Policy 1",
+      "Research Design in CRJU",
+      "Youthful Offenders"
+    ]
   },
   {
-    "professor_name": "White, Margaret",
-    "department": "Chemistry",
-    "overall_rating": 3.7,
-    "difficulty": 4.0,
-    "num_ratings": 25,
-    "would_take_again": 58,
-    "tags": "Clear grading criteria|Lots of homework"
+    "professor_name": "Christopher Curtis",
+    "department": "Criminal Justice",
+    "overall_rating": 5.0,
+    "difficulty": 1.8,
+    "num_ratings": 1,
+    "would_take_again": 100.0,
+    "tags": "Crts & Judicial Process",
+    "courses_taught": [
+      "Crts & Judicial Process"
+    ]
   },
   {
-    "professor_name": "Harris, Christopher",
-    "department": "Physics",
-    "overall_rating": 4.1,
-    "difficulty": 3.5,
-    "num_ratings": 40,
-    "would_take_again": 75,
-    "tags": "Accessible outside class|Respected"
-  },
-  {
-    "professor_name": "Martin, Sarah",
-    "department": "English",
+    "professor_name": "Michele Meitl",
+    "department": "Criminal Justice",
     "overall_rating": 4.8,
-    "difficulty": 2.3,
-    "num_ratings": 70,
-    "would_take_again": 97,
-    "tags": "Hilarious|Inspirational|Amazing lectures"
-  },
-  {
-    "professor_name": "Garcia, Daniel",
-    "department": "History",
-    "overall_rating": 3.9,
-    "difficulty": 3.2,
-    "num_ratings": 33,
-    "would_take_again": 68,
-    "tags": "Gives good feedback|Caring"
-  },
-  {
-    "professor_name": "Martinez, Nancy",
-    "department": "Psychology",
-    "overall_rating": 4.5,
     "difficulty": 2.8,
-    "num_ratings": 58,
-    "would_take_again": 92,
-    "tags": "Amazing lectures|Caring|Respected"
+    "num_ratings": 6,
+    "would_take_again": 90.0,
+    "tags": "Constitutional Law for CJ|Contem Topics In CRJU - Mock Trial|Courts,  Law,  & Legal Procedure|Crts & Judicial Process",
+    "courses_taught": [
+      "Constitutional Law for CJ",
+      "Contem Topics In CRJU - Mock Trial",
+      "Courts,  Law,  & Legal Procedure",
+      "Crts & Judicial Process",
+      "Intro/Criminal Justice"
+    ]
   },
   {
-    "professor_name": "Robinson, Paul",
-    "department": "Sociology",
-    "overall_rating": 3.4,
-    "difficulty": 3.8,
-    "num_ratings": 18,
-    "would_take_again": 50,
-    "tags": "Tough grader|Test heavy"
+    "professor_name": "Douglas Brasher",
+    "department": "Criminal Justice",
+    "overall_rating": 4.7,
+    "difficulty": 1.8,
+    "num_ratings": 2,
+    "would_take_again": 93.0,
+    "tags": "Crit Issues:Crime&Justce",
+    "courses_taught": [
+      "Crit Issues:Crime&Justce"
+    ]
   },
   {
-    "professor_name": "Clark, Karen",
-    "department": "Economics",
-    "overall_rating": 4.2,
-    "difficulty": 3.6,
-    "num_ratings": 44,
-    "would_take_again": 78,
-    "tags": "Clear grading criteria|Accessible outside class"
+    "professor_name": "Jose Sanchez",
+    "department": "Criminal Justice",
+    "overall_rating": 4.5,
+    "difficulty": 1.5,
+    "num_ratings": 4,
+    "would_take_again": 100.0,
+    "tags": "Criminological Theory|Intro/Criminal Justice",
+    "courses_taught": [
+      "Criminological Theory",
+      "Intro/Criminal Justice"
+    ]
   },
   {
-    "professor_name": "Rodriguez, Mark",
-    "department": "Computer Science",
-    "overall_rating": 3.8,
-    "difficulty": 3.9,
-    "num_ratings": 32,
-    "would_take_again": 65,
-    "tags": "Lots of homework|Test heavy"
+    "professor_name": "Katherine Polzer",
+    "department": "Criminal Justice",
+    "overall_rating": 4.5,
+    "difficulty": 1.7,
+    "num_ratings": 3,
+    "would_take_again": 95.0,
+    "tags": "Crit Issues:Crime&Justce|Intro/Criminal Justice",
+    "courses_taught": [
+      "Crit Issues:Crime&Justce",
+      "Intro/Criminal Justice"
+    ]
   },
   {
-    "professor_name": "Lewis, Betty",
-    "department": "Mathematics",
-    "overall_rating": 4.6,
-    "difficulty": 2.6,
-    "num_ratings": 62,
-    "would_take_again": 93,
-    "tags": "Inspirational|Amazing lectures"
+    "professor_name": "Ronald Burns",
+    "department": "Criminal Justice",
+    "overall_rating": 4.3,
+    "difficulty": 3.0,
+    "num_ratings": 11,
+    "would_take_again": 61.0,
+    "tags": "Criminal Violence|Crit Issues:Crime&Justce|Federal Law Enforcement|Internship In CRJU",
+    "courses_taught": [
+      "Criminal Violence",
+      "Crit Issues:Crime&Justce",
+      "Federal Law Enforcement",
+      "Internship In CRJU",
+      "Intro/Criminal Justice",
+      "Law Enforcemnt Policy&Practic",
+      "Police In A Free Society",
+      "White Collar Crime"
+    ]
   },
   {
-    "professor_name": "Lee, Donald",
-    "department": "Biology",
-    "overall_rating": 3.3,
-    "difficulty": 4.2,
-    "num_ratings": 19,
-    "would_take_again": 48,
-    "tags": "Tough grader|Skip class? You won't pass"
-  },
-  {
-    "professor_name": "Walker, Dorothy",
-    "department": "Chemistry",
+    "professor_name": "Kendra Bowen",
+    "department": "Criminal Justice",
     "overall_rating": 4.0,
-    "difficulty": 3.3,
-    "num_ratings": 36,
-    "would_take_again": 73,
-    "tags": "Gives good feedback|Respected"
+    "difficulty": 3.2,
+    "num_ratings": 7,
+    "would_take_again": 70.0,
+    "tags": "Career Plan, Ethics, Prof Dev:CJ|Crime Victims|Crit Issues:Crime&Justce|Intro/Criminal Justice",
+    "courses_taught": [
+      "Career Plan, Ethics, Prof Dev:CJ",
+      "Crime Victims",
+      "Crit Issues:Crime&Justce",
+      "Intro/Criminal Justice"
+    ]
   },
   {
-    "professor_name": "Hall, Steven",
-    "department": "Physics",
-    "overall_rating": 4.4,
-    "difficulty": 3.1,
-    "num_ratings": 52,
-    "would_take_again": 87,
-    "tags": "Amazing lectures|Caring"
-  },
-  {
-    "professor_name": "Allen, Sandra",
-    "department": "English",
+    "professor_name": "Johnny Nhan",
+    "department": "Criminal Justice",
     "overall_rating": 3.7,
     "difficulty": 2.9,
-    "num_ratings": 27,
-    "would_take_again": 62,
-    "tags": "Accessible outside class|Clear grading criteria"
+    "num_ratings": 5,
+    "would_take_again": 34.0,
+    "tags": "Adv Criminological Theory|Criminal Justice Systems|Crit Issues in Law Enforcement|Intro/Criminal Justice",
+    "courses_taught": [
+      "Adv Criminological Theory",
+      "Criminal Justice Systems",
+      "Crit Issues in Law Enforcement",
+      "Intro/Criminal Justice",
+      "White Collar Crime"
+    ]
   },
   {
-    "professor_name": "Young, George",
-    "department": "History",
-    "overall_rating": 4.2,
-    "difficulty": 3.0,
-    "num_ratings": 41,
-    "would_take_again": 79,
-    "tags": "Caring|Gives good feedback"
-  },
-  {
-    "professor_name": "Hernandez, Amanda",
-    "department": "Psychology",
-    "overall_rating": 4.6,
-    "difficulty": 2.7,
-    "num_ratings": 65,
-    "would_take_again": 94,
-    "tags": "Hilarious|Amazing lectures|Inspirational"
-  },
-  {
-    "professor_name": "King, Edward",
-    "department": "Sociology",
+    "professor_name": "Quinton Phillips",
+    "department": "Criminal Justice",
     "overall_rating": 3.5,
-    "difficulty": 3.6,
-    "num_ratings": 21,
-    "would_take_again": 52,
-    "tags": "Clear grading criteria|Tough grader"
-  },
-  {
-    "professor_name": "Wright, Ashley",
-    "department": "Economics",
-    "overall_rating": 4.3,
-    "difficulty": 3.4,
-    "num_ratings": 47,
-    "would_take_again": 83,
-    "tags": "Respected|Accessible outside class"
-  },
-  {
-    "professor_name": "Lopez, Andrew",
-    "department": "Computer Science",
-    "overall_rating": 4.7,
     "difficulty": 2.4,
-    "num_ratings": 72,
-    "would_take_again": 96,
-    "tags": "Amazing lectures|Inspirational|Hilarious"
+    "num_ratings": 1,
+    "would_take_again": 65.0,
+    "tags": "Contem Topics In CRJU - Social Psychology of Crime",
+    "courses_taught": [
+      "Contem Topics In CRJU - Social Psychology of Crime"
+    ]
   },
   {
-    "professor_name": "Hill, Kimberly",
-    "department": "Mathematics",
-    "overall_rating": 3.6,
-    "difficulty": 4.0,
-    "num_ratings": 24,
-    "would_take_again": 57,
-    "tags": "Tough grader|Lots of homework"
-  },
-  {
-    "professor_name": "Scott, Joshua",
-    "department": "Biology",
-    "overall_rating": 4.4,
-    "difficulty": 2.8,
-    "num_ratings": 55,
-    "would_take_again": 89,
-    "tags": "Caring|Gives good feedback"
-  },
-  {
-    "professor_name": "Green, Emily",
-    "department": "Chemistry",
-    "overall_rating": 3.8,
-    "difficulty": 3.7,
-    "num_ratings": 31,
-    "would_take_again": 66,
-    "tags": "Test heavy|Clear grading criteria"
-  },
-  {
-    "professor_name": "Adams, Brian",
-    "department": "Physics",
-    "overall_rating": 4.0,
-    "difficulty": 3.3,
-    "num_ratings": 38,
-    "would_take_again": 74,
-    "tags": "Accessible outside class|Respected"
-  },
-  {
-    "professor_name": "Baker, Megan",
-    "department": "English",
-    "overall_rating": 4.9,
-    "difficulty": 2.1,
-    "num_ratings": 80,
-    "would_take_again": 98,
-    "tags": "Hilarious|Amazing lectures|Inspirational|Caring"
-  },
-  {
-    "professor_name": "Gonzalez, Kevin",
-    "department": "History",
-    "overall_rating": 3.8,
-    "difficulty": 3.1,
-    "num_ratings": 29,
-    "would_take_again": 63,
-    "tags": "Gives good feedback|Accessible outside class"
-  },
-  {
-    "professor_name": "Nelson, Melissa",
-    "department": "Psychology",
-    "overall_rating": 4.5,
-    "difficulty": 2.9,
-    "num_ratings": 60,
-    "would_take_again": 91,
-    "tags": "Amazing lectures|Caring|Respected"
-  },
-  {
-    "professor_name": "Carter, Timothy",
-    "department": "Sociology",
-    "overall_rating": 3.3,
-    "difficulty": 3.9,
-    "num_ratings": 16,
-    "would_take_again": 46,
-    "tags": "Tough grader|Skip class? You won't pass"
-  },
-  {
-    "professor_name": "Mitchell, Laura",
-    "department": "Economics",
-    "overall_rating": 4.1,
-    "difficulty": 3.5,
-    "num_ratings": 43,
-    "would_take_again": 77,
-    "tags": "Clear grading criteria|Lots of homework"
-  },
-  {
-    "professor_name": "Perez, Nathan",
-    "department": "Computer Science",
-    "overall_rating": 4.5,
-    "difficulty": 3.0,
-    "num_ratings": 58,
-    "would_take_again": 88,
-    "tags": "Amazing lectures|Gives good feedback"
-  },
-  {
-    "professor_name": "Roberts, Rebecca",
-    "department": "Mathematics",
-    "overall_rating": 4.0,
-    "difficulty": 3.8,
-    "num_ratings": 35,
-    "would_take_again": 70,
-    "tags": "Accessible outside class|Test heavy"
-  },
-  {
-    "professor_name": "Turner, Justin",
-    "department": "Biology",
-    "overall_rating": 3.7,
-    "difficulty": 3.4,
-    "num_ratings": 26,
-    "would_take_again": 60,
-    "tags": "Clear grading criteria|Tough grader"
-  },
-  {
-    "professor_name": "Phillips, Stephanie",
-    "department": "Chemistry",
-    "overall_rating": 4.2,
-    "difficulty": 3.1,
-    "num_ratings": 46,
-    "would_take_again": 82,
-    "tags": "Respected|Gives good feedback"
-  },
-  {
-    "professor_name": "Campbell, Brandon",
-    "department": "Physics",
-    "overall_rating": 4.3,
-    "difficulty": 2.9,
-    "num_ratings": 53,
-    "would_take_again": 86,
-    "tags": "Caring|Amazing lectures"
-  },
-  {
-    "professor_name": "Parker, Christine",
-    "department": "English",
-    "overall_rating": 3.6,
-    "difficulty": 3.0,
-    "num_ratings": 22,
-    "would_take_again": 55,
-    "tags": "Accessible outside class|Clear grading criteria"
-  },
-  {
-    "professor_name": "Evans, Patrick",
-    "department": "History",
-    "overall_rating": 4.4,
-    "difficulty": 2.7,
-    "num_ratings": 59,
-    "would_take_again": 90,
-    "tags": "Inspirational|Hilarious"
-  },
-  {
-    "professor_name": "Edwards, Nicole",
-    "department": "Psychology",
-    "overall_rating": 3.9,
-    "difficulty": 3.2,
-    "num_ratings": 37,
-    "would_take_again": 69,
-    "tags": "Gives good feedback|Caring"
-  },
-  {
-    "professor_name": "Collins, Russell",
-    "department": "Sociology",
-    "overall_rating": 4.0,
-    "difficulty": 3.4,
-    "num_ratings": 40,
-    "would_take_again": 74,
-    "tags": "Amazing lectures|Respected"
-  },
-  {
-    "professor_name": "Stewart, Angela",
-    "department": "Economics",
-    "overall_rating": 4.2,
-    "difficulty": 3.0,
-    "num_ratings": 44,
-    "would_take_again": 80,
-    "tags": "Clear grading criteria|Accessible outside class"
-  },
-  {
-    "professor_name": "Sanchez, Samuel",
-    "department": "Computer Science",
-    "overall_rating": 3.5,
-    "difficulty": 4.1,
-    "num_ratings": 18,
-    "would_take_again": 48,
-    "tags": "Tough grader|Lots of homework"
-  },
-  {
-    "professor_name": "Morris, Brittany",
-    "department": "Mathematics",
-    "overall_rating": 4.7,
-    "difficulty": 2.5,
-    "num_ratings": 68,
-    "would_take_again": 95,
-    "tags": "Amazing lectures|Inspirational"
-  },
-  {
-    "professor_name": "Rogers, Lawrence",
-    "department": "Biology",
-    "overall_rating": 4.1,
-    "difficulty": 3.1,
-    "num_ratings": 42,
-    "would_take_again": 78,
-    "tags": "Gives good feedback|Caring"
-  },
-  {
-    "professor_name": "Reed, Tammy",
-    "department": "Chemistry",
-    "overall_rating": 3.4,
-    "difficulty": 4.2,
-    "num_ratings": 17,
-    "would_take_again": 44,
-    "tags": "Skip class? You won't pass|Tough grader"
-  },
-  {
-    "professor_name": "Cook, Frank",
-    "department": "Physics",
-    "overall_rating": 4.5,
-    "difficulty": 2.8,
-    "num_ratings": 62,
-    "would_take_again": 92,
-    "tags": "Amazing lectures|Respected"
-  },
-  {
-    "professor_name": "Morgan, Rachel",
-    "department": "English",
-    "overall_rating": 4.8,
-    "difficulty": 2.2,
-    "num_ratings": 75,
-    "would_take_again": 97,
-    "tags": "Hilarious|Inspirational|Caring"
-  },
-  {
-    "professor_name": "Bell, Wayne",
-    "department": "History",
-    "overall_rating": 3.7,
-    "difficulty": 3.3,
-    "num_ratings": 28,
-    "would_take_again": 62,
-    "tags": "Clear grading criteria|Accessible outside class"
-  },
-  {
-    "professor_name": "Murphy, Sharon",
-    "department": "Psychology",
-    "overall_rating": 4.6,
-    "difficulty": 2.6,
-    "num_ratings": 66,
-    "would_take_again": 94,
-    "tags": "Amazing lectures|Caring|Inspirational"
-  },
-  {
-    "professor_name": "Bailey, Jack",
-    "department": "Sociology",
+    "professor_name": "Brie Diamond",
+    "department": "Criminal Justice",
     "overall_rating": 3.2,
-    "difficulty": 4.0,
-    "num_ratings": 14,
-    "would_take_again": 42,
-    "tags": "Tough grader|Test heavy"
+    "difficulty": 3.8,
+    "num_ratings": 10,
+    "would_take_again": 50.0,
+    "tags": "Community Corrections|Criminological Theory|Data Analyses in CRJU|Intro/Criminal Justice",
+    "courses_taught": [
+      "Community Corrections",
+      "Criminological Theory",
+      "Data Analyses in CRJU",
+      "Intro/Criminal Justice",
+      "Multiculturalism in CJ System",
+      "Research Design in CRJU"
+    ]
   },
   {
-    "professor_name": "Rivera, Denise",
-    "department": "Economics",
-    "overall_rating": 4.3,
-    "difficulty": 3.2,
-    "num_ratings": 49,
-    "would_take_again": 84,
-    "tags": "Respected|Gives good feedback"
+    "professor_name": "Rashaan DeShay",
+    "department": "Criminal Justice",
+    "overall_rating": 3.0,
+    "difficulty": 3.6,
+    "num_ratings": 4,
+    "would_take_again": 40.0,
+    "tags": "Contem Topics In CRJU - Juvenile Law and Society|Contem Topics In CRJU - Offender Rehabilitation|Institutional Corrections|Wrongful Convictions",
+    "courses_taught": [
+      "Contem Topics In CRJU - Juvenile Law and Society",
+      "Contem Topics In CRJU - Offender Rehabilitation",
+      "Institutional Corrections",
+      "Wrongful Convictions"
+    ]
+  },
+  {
+    "professor_name": "Patrick Kinkade",
+    "department": "Criminal Justice",
+    "overall_rating": 2.5,
+    "difficulty": 4.5,
+    "num_ratings": 4,
+    "would_take_again": 20.0,
+    "tags": "Crit Issues:Crime&Justce|Intro/Criminal Justice|Victimless Crime",
+    "courses_taught": [
+      "Crit Issues:Crime&Justce",
+      "Intro/Criminal Justice",
+      "Victimless Crime"
+    ]
   }
 ]

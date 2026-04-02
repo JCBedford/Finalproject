@@ -1,52 +1,52 @@
 [
   {
-    "department": "Psychology",
-    "avg_rating": 4.42,
+    "department": "Brae Young",
+    "avg_rating": 5.0,
+    "count": 3
+  },
+  {
+    "department": "Christopher Curtis",
+    "avg_rating": 5.0,
+    "count": 1
+  },
+  {
+    "department": "Michele Meitl",
+    "avg_rating": 4.8,
     "count": 6
   },
   {
-    "department": "English",
-    "avg_rating": 4.42,
-    "count": 6
+    "department": "Douglas Brasher",
+    "avg_rating": 4.7,
+    "count": 2
   },
   {
-    "department": "Computer Science",
-    "avg_rating": 4.22,
-    "count": 6
+    "department": "Jose Sanchez",
+    "avg_rating": 4.5,
+    "count": 4
   },
   {
-    "department": "Physics",
-    "avg_rating": 4.2,
-    "count": 6
+    "department": "Katherine Polzer",
+    "avg_rating": 4.5,
+    "count": 3
   },
   {
-    "department": "Economics",
-    "avg_rating": 4.18,
-    "count": 6
+    "department": "Ronald Burns",
+    "avg_rating": 4.3,
+    "count": 11
   },
   {
-    "department": "Biology",
-    "avg_rating": 4.05,
-    "count": 6
+    "department": "Kendra Bowen",
+    "avg_rating": 4.0,
+    "count": 7
   },
   {
-    "department": "Mathematics",
-    "avg_rating": 4.03,
-    "count": 6
+    "department": "Johnny Nhan",
+    "avg_rating": 3.7,
+    "count": 5
   },
   {
-    "department": "History",
-    "avg_rating": 4.02,
-    "count": 6
-  },
-  {
-    "department": "Chemistry",
-    "avg_rating": 3.72,
-    "count": 6
-  },
-  {
-    "department": "Sociology",
+    "department": "Quinton Phillips",
     "avg_rating": 3.5,
-    "count": 6
+    "count": 1
   }
 ]

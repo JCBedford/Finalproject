@@ -1,52 +1,52 @@
 [
   {
-    "department": "Chemistry",
-    "avg_difficulty": 3.77,
+    "department": "Patrick Kinkade",
+    "avg_difficulty": 4.5,
+    "count": 4
+  },
+  {
+    "department": "Brie Diamond",
+    "avg_difficulty": 3.8,
+    "count": 10
+  },
+  {
+    "department": "Rashaan DeShay",
+    "avg_difficulty": 3.6,
+    "count": 4
+  },
+  {
+    "department": "Kendra Bowen",
+    "avg_difficulty": 3.2,
+    "count": 7
+  },
+  {
+    "department": "Ronald Burns",
+    "avg_difficulty": 3.0,
+    "count": 11
+  },
+  {
+    "department": "Johnny Nhan",
+    "avg_difficulty": 2.9,
+    "count": 5
+  },
+  {
+    "department": "Michele Meitl",
+    "avg_difficulty": 2.8,
     "count": 6
   },
   {
-    "department": "Sociology",
-    "avg_difficulty": 3.7,
-    "count": 6
+    "department": "Brae Young",
+    "avg_difficulty": 2.7,
+    "count": 3
   },
   {
-    "department": "Mathematics",
-    "avg_difficulty": 3.5,
-    "count": 6
+    "department": "Quinton Phillips",
+    "avg_difficulty": 2.4,
+    "count": 1
   },
   {
-    "department": "Economics",
-    "avg_difficulty": 3.43,
-    "count": 6
-  },
-  {
-    "department": "Computer Science",
-    "avg_difficulty": 3.28,
-    "count": 6
-  },
-  {
-    "department": "Physics",
-    "avg_difficulty": 3.22,
-    "count": 6
-  },
-  {
-    "department": "Biology",
-    "avg_difficulty": 3.18,
-    "count": 6
-  },
-  {
-    "department": "History",
-    "avg_difficulty": 3.02,
-    "count": 6
-  },
-  {
-    "department": "Psychology",
-    "avg_difficulty": 2.87,
-    "count": 6
-  },
-  {
-    "department": "English",
-    "avg_difficulty": 2.5,
-    "count": 6
+    "department": "Christopher Curtis",
+    "avg_difficulty": 1.8,
+    "count": 1
   }
 ]

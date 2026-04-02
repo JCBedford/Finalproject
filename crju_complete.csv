@@ -1,0 +1,66 @@
+course_code,course_name,section,format,schedule,status,enrollment_cap,seats_available,professor_name,rmp_rating,rmp_difficulty,rmp_would_take_again,rmp_has_data
+CRJU 10121,"Career Plan, Ethics, Prof Dev:CJ",74,In Person,W16:00-16:50,Open,25,5,Kendra Bowen,4,3.2,70,Yes
+CRJU 20413,Intro/Criminal Justice,5,In Person,TR 8:00- 9:20,Open,50,5,Ronald Burns,4.3,3,61,Yes
+CRJU 20413,Intro/Criminal Justice,15,In Person,TR 9:30-10:50,Open,50,5,Kendra Bowen,4,3.2,70,Yes
+CRJU 20413,Intro/Criminal Justice,35,In Person,TR11:00-12:20,Open,50,5,Jose Sanchez,4.5,1.5,100,Yes
+CRJU 20413,Intro/Criminal Justice,45,In Person,TR12:30-13:50,Open,50,5,Brie Diamond,3.2,3.8,50,Yes
+CRJU 20413,Intro/Criminal Justice,55,In Person,TR14:00-15:20,Open,50,5,Patrick Kinkade,2.5,4.5,20,Yes
+CRJU 20413,Intro/Criminal Justice,74,In Person,MW16:00-17:20,Open,50,5,Johnny Nhan,3.7,2.9,34,Yes
+CRJU 20413,Intro/Criminal Justice,81,In Person,W19:00-21:40,Open,50,5,Katherine Polzer,4.5,1.7,95,Yes
+CRJU 20413,Intro/Criminal Justice,82,In Person,W19:00-21:40,Open,50,5,Michele Meitl,4.8,2.8,90,Yes
+CRJU 20413,Intro/Criminal Justice,83,In Person,T18:30-21:10,Open,50,5,Ronald Burns,4.3,3,61,Yes
+CRJU 20413,Intro/Criminal Justice,84,In Person,M19:00-21:40,Open,50,5,Kendra Bowen,4,3.2,70,Yes
+CRJU 20423,Crit Issues:Crime&Justce,5,In Person,TR 8:00- 9:20,Open,30,5,Kendra Bowen,4,3.2,70,Yes
+CRJU 20423,Crit Issues:Crime&Justce,10,In Person,MWF 9:00- 9:50,Open,30,5,Ronald Burns,4.3,3,61,Yes
+CRJU 20423,Crit Issues:Crime&Justce,20,In Person,MWF10:00-10:50,Open,30,5,Douglas Brasher,4.7,1.8,93,Yes
+CRJU 20423,Crit Issues:Crime&Justce,21,In Person,MWF10:00-10:50,Open,30,5,Katherine Polzer,4.5,1.7,95,Yes
+CRJU 20423,Crit Issues:Crime&Justce,30,In Person,MWF11:00-11:50,Open,30,5,Patrick Kinkade,2.5,4.5,20,Yes
+CRJU 20423,Crit Issues:Crime&Justce,75,In Person,MW16:00-17:20,Open,30,5,Kendra Bowen,4,3.2,70,Yes
+CRJU 20423,Crit Issues:Crime&Justce,80,In Person,TR17:00-18:20,Open,30,5,Ronald Burns,4.3,3,61,Yes
+CRJU 20423,Crit Issues:Crime&Justce,81,In Person,MW17:30-18:50,Open,30,5,Douglas Brasher,4.7,1.8,93,Yes
+CRJU 20423,Crit Issues:Crime&Justce,82,In Person,T18:30-21:10,Open,30,0,Katherine Polzer,4.5,1.7,95,Yes
+CRJU 20423,Crit Issues:Crime&Justce,83,In Person,W19:00-21:40,Open,30,5,Patrick Kinkade,2.5,4.5,20,Yes
+CRJU 20423,Crit Issues:Crime&Justce,84,In Person,M19:00-21:40,Open,30,5,Kendra Bowen,4,3.2,70,Yes
+CRJU 20423,Crit Issues:Crime&Justce,86,In Person,MW19:00-20:20,Open,30,5,Ronald Burns,4.3,3,61,Yes
+CRJU 20873,Research Design in CRJU,10,In Person,MWF 9:00- 9:50,Open,25,5,Brie Diamond,3.2,3.8,50,Yes
+CRJU 20873,Research Design in CRJU,20,In Person,MWF10:00-10:50,Open,25,5,Brae Young,5,2.7,100,Yes
+CRJU 20873,Research Design in CRJU,55,In Person,TR14:00-15:20,Open,25,5,Brie Diamond,3.2,3.8,50,Yes
+CRJU 20883,Data Analyses in CRJU,35,In Person,TR11:00-12:20,Open,24,5,Brie Diamond,3.2,3.8,50,Yes
+CRJU 20883,Data Analyses in CRJU,45,In Person,TR12:30-13:50,Open,24,5,Brie Diamond,3.2,3.8,50,Yes
+CRJU 20883,Data Analyses in CRJU,55,In Person,TR14:00-15:20,Open,24,5,Brie Diamond,3.2,3.8,50,Yes
+CRJU 30223,Contem Topics In CRJU - Offender Rehabilitation,30,In Person,MWF11:00-11:50,Open,25,5,Rashaan DeShay,3,3.6,40,Yes
+CRJU 30223,Contem Topics In CRJU - Capital Punishment,35,In Person,TR11:00-12:20,Open,25,5,James Marquat,,,,No
+CRJU 30223,Contem Topics In CRJU - Juvenile Law and Society,45,In Person,TR12:30-13:50,Open,25,5,Rashaan DeShay,3,3.6,40,Yes
+CRJU 30223,Contem Topics In CRJU - Social Psychology of Crime,65,In Person,TR15:30-16:50,Open,25,5,Quinton Phillips,3.5,2.4,65,Yes
+CRJU 30223,Contem Topics In CRJU - Criminal Investigations,80,In Person,R18:30-21:10,Open,25,5,James Van Gorkem,,,,No
+CRJU 30223,Contem Topics In CRJU - Mock Trial,81,In Person,M17:30-20:10,DeptPermit,25,5,Michele Meitl,4.8,2.8,90,Yes
+CRJU 30333,Criminological Theory,30,In Person,MWF11:00-11:50,Open,25,5,Jose Sanchez,4.5,1.5,100,Yes
+CRJU 30333,Criminological Theory,35,In Person,TR11:00-12:20,Open,25,5,Brie Diamond,3.2,3.8,50,Yes
+CRJU 30333,Criminological Theory,50,In Person,MWF13:00-13:50,Open,25,5,Jose Sanchez,4.5,1.5,100,Yes
+CRJU 30333,Criminological Theory,55,In Person,TR14:00-15:20,Open,25,5,Brie Diamond,3.2,3.8,50,Yes
+CRJU 30333,Criminological Theory,65,In Person,TR15:30-16:50,Open,25,5,Jose Sanchez,4.5,1.5,100,Yes
+CRJU 30383,Institutional Corrections,35,In Person,TR11:00-12:20,Open,25,5,Rashaan DeShay,3,3.6,40,Yes
+CRJU 30423,Crts & Judicial Process,80,In Person,MW17:30-18:50,Open,25,5,Christopher Curtis,5,1.8,100,Yes
+CRJU 30423,Crts & Judicial Process,81,In Person,T18:30-21:10,Open,25,5,Michele Meitl,4.8,2.8,90,Yes
+CRJU 30523,Crime Scene Investigatn,45,In Person,TR12:30-13:50,Open,25,5,James Van Gorkem,,,,No
+CRJU 30523,Crime Scene Investigatn,80,In Person,TR17:00-18:20,Open,25,5,James Van Gorkem,,,,No
+CRJU 30553,Constitutional Law for CJ,74,In Person,MW16:00-17:20,Open,25,5,Michele Meitl,4.8,2.8,90,Yes
+CRJU 30553,Constitutional Law for CJ,80,In Person,W19:00-21:40,Open,25,5,Michele Meitl,4.8,2.8,90,Yes
+CRJU 30613,Police In A Free Society,80,In Person,MW17:30-18:50,Open,25,5,Ronald Burns,4.3,3,61,Yes
+CRJU 30633,Federal Law Enforcement,80,In Person,W19:00-21:40,Open,25,5,Ronald Burns,4.3,3,61,Yes
+CRJU 30643,Community Corrections,80,In Person,MW17:30-18:50,Open,30,5,Brie Diamond,3.2,3.8,50,Yes
+CRJU 30823,Criminal Violence,15,In Person,TR 9:30-10:50,Open,25,5,Ronald Burns,4.3,3,61,Yes
+CRJU 30833,Crime Victims,30,In Person,MWF11:00-11:50,Open,25,5,Kendra Bowen,4,3.2,70,Yes
+CRJU 30853,Multiculturalism in CJ System,55,In Person,TR14:00-15:20,Open,25,5,Brie Diamond,3.2,3.8,50,Yes
+CRJU 30973,Victimless Crime,80,In Person,MW17:30-18:50,Open,25,5,Patrick Kinkade,2.5,4.5,20,Yes
+CRJU 30983,Wrongful Convictions,15,In Person,TR 9:30-10:50,Open,25,5,Rashaan DeShay,3,3.6,40,Yes
+CRJU 40473,Youthful Offenders,20,In Person,MWF10:00-10:50,Open,25,5,Brae Young,5,2.7,100,Yes
+CRJU 40503,White Collar Crime,80,In Person,R18:30-21:10,Open,25,5,Ronald Burns,4.3,3,61,Yes
+CRJU 40503,White Collar Crime,81,In Person,R18:30-21:10,Open,25,5,Johnny Nhan,3.7,2.9,34,Yes
+CRJU 40963,Internship In CRJU,80,In Person,W17:30-20:10,DeptPermit,25,5,Ronald Burns,4.3,3,61,Yes
+CRJU 61123,Criminal Justice Systems,479,Online Only,TBAARR,Open,25,0,Johnny Nhan,3.7,2.9,34,Yes
+CRJU 61183,Adv Criminological Theory,479,Online Only,TBAARR,Open,20,0,Johnny Nhan,3.7,2.9,34,Yes
+CRJU 61193,Applied Research & Policy 1,479,Online Only,TBAARR,Open,25,0,Brae Young,5,2.7,100,Yes
+CRJU 61263,"Courts,  Law,  & Legal Procedure",479,Online Only,TBAARR,Open,25,0,Michele Meitl,4.8,2.8,90,Yes
+CRJU 61303,Crit Issues in Law Enforcement,80,In Person,W17:30-20:10,Open,9,0,Johnny Nhan,3.7,2.9,34,Yes
+CRJU 61333,Law Enforcemnt Policy&Practic,80,In Person,M17:30-20:10,Open,10,0,Ronald Burns,4.3,3,61,Yes

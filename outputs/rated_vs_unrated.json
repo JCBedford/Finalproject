@@ -1,18 +1,12 @@
 {
-  "rated_professors": 60,
-  "departments_covered": 10,
+  "rated_professors": 13,
+  "departments_covered": 1,
   "departments_uncovered": 0,
   "covered_list": [
-    "Biology",
-    "Chemistry",
-    "Computer Science",
-    "Economics",
-    "English",
-    "History",
-    "Mathematics",
-    "Physics",
-    "Psychology",
-    "Sociology"
+    "Criminal Justice"
   ],
-  "uncovered_list": []
+  "uncovered_list": [],
+  "total_sections": 65,
+  "open_sections": 63,
+  "closed_sections": 2
 }
