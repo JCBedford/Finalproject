@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrogPath | Professor Explorer</title>
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="../index.html">FrogPath</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../index.html">Home</a>
+        <a href="degree-planner.html">Degree Planner</a>
+        <a href="course-explorer.html">Course Explorer</a>
+        <a href="professor-explorer.html">Professor Explorer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">Professor Explorer</h1>
+    <p class="muted">Card view of Criminal Justice professors with Rate My Professor data.</p>
+
+    <section class="panel">
+      <div class="controls" style="grid-template-columns: 1fr 220px;">
+        <input id="prof-search" type="search" placeholder="Search professor names">
+        <select id="prof-sort">
+          <option value="rating-desc">Sort by Rating</option>
+          <option value="difficulty-asc">Sort by Difficulty</option>
+        </select>
+      </div>
+      <div id="professor-cards" class="card-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Professor cards remain visible even when RMP data is missing.</p>
+  </footer>
+
+  <script src="../scripts/nav.js"></script>
+  <script src="../scripts/professor-explorer.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+  {
+    "professor_name": "Brae Young",
+    "section_count": 3,
+    "rmp_has_data": true,
+    "rmp_rating": 5.0,
+    "rmp_difficulty": 2.7,
+    "rmp_would_take_again": 100
+  },
+  {
+    "professor_name": "Brie Diamond",
+    "section_count": 10,
+    "rmp_has_data": true,
+    "rmp_rating": 3.2,
+    "rmp_difficulty": 3.8,
+    "rmp_would_take_again": 50
+  },
+  {
+    "professor_name": "Christopher Curtis",
+    "section_count": 1,
+    "rmp_has_data": true,
+    "rmp_rating": 5.0,
+    "rmp_difficulty": 1.8,
+    "rmp_would_take_again": 100
+  },
+  {
+    "professor_name": "Douglas Brasher",
+    "section_count": 2,
+    "rmp_has_data": true,
+    "rmp_rating": 4.7,
+    "rmp_difficulty": 1.8,
+    "rmp_would_take_again": 93
+  },
+  {
+    "professor_name": "James Marquat",
+    "section_count": 1,
+    "rmp_has_data": false,
+    "rmp_rating": null,
+    "rmp_difficulty": null,
+    "rmp_would_take_again": null
+  },
+  {
+    "professor_name": "James Van Gorkem",
+    "section_count": 3,
+    "rmp_has_data": false,
+    "rmp_rating": null,
+    "rmp_difficulty": null,
+    "rmp_would_take_again": null
+  },
+  {
+    "professor_name": "Johnny Nhan",
+    "section_count": 5,
+    "rmp_has_data": true,
+    "rmp_rating": 3.7,
+    "rmp_difficulty": 2.9,
+    "rmp_would_take_again": 34
+  },
+  {
+    "professor_name": "Jose Sanchez",
+    "section_count": 4,
+    "rmp_has_data": true,
+    "rmp_rating": 4.5,
+    "rmp_difficulty": 1.5,
+    "rmp_would_take_again": 100
+  },
+  {
+    "professor_name": "Katherine Polzer",
+    "section_count": 3,
+    "rmp_has_data": true,
+    "rmp_rating": 4.5,
+    "rmp_difficulty": 1.7,
+    "rmp_would_take_again": 95
+  },
+  {
+    "professor_name": "Kendra Bowen",
+    "section_count": 7,
+    "rmp_has_data": true,
+    "rmp_rating": 4.0,
+    "rmp_difficulty": 3.2,
+    "rmp_would_take_again": 70
+  },
+  {
+    "professor_name": "Michele Meitl",
+    "section_count": 6,
+    "rmp_has_data": true,
+    "rmp_rating": 4.8,
+    "rmp_difficulty": 2.8,
+    "rmp_would_take_again": 90
+  },
+  {
+    "professor_name": "Patrick Kinkade",
+    "section_count": 4,
+    "rmp_has_data": true,
+    "rmp_rating": 2.5,
+    "rmp_difficulty": 4.5,
+    "rmp_would_take_again": 20
+  },
+  {
+    "professor_name": "Quinton Phillips",
+    "section_count": 1,
+    "rmp_has_data": true,
+    "rmp_rating": 3.5,
+    "rmp_difficulty": 2.4,
+    "rmp_would_take_again": 65
+  },
+  {
+    "professor_name": "Rashaan DeShay",
+    "section_count": 4,
+    "rmp_has_data": true,
+    "rmp_rating": 3.0,
+    "rmp_difficulty": 3.6,
+    "rmp_would_take_again": 40
+  },
+  {
+    "professor_name": "Ronald Burns",
+    "section_count": 11,
+    "rmp_has_data": true,
+    "rmp_rating": 4.3,
+    "rmp_difficulty": 3.0,
+    "rmp_would_take_again": 61
+  }
+]

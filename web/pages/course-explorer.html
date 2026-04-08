@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrogPath | Course Explorer</title>
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="../index.html">FrogPath</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../index.html">Home</a>
+        <a href="degree-planner.html">Degree Planner</a>
+        <a href="course-explorer.html">Course Explorer</a>
+        <a href="professor-explorer.html">Professor Explorer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">Course Explorer</h1>
+    <p class="muted">Search and filter Criminal Justice sections with integrated professor ratings.</p>
+
+    <section class="panel">
+      <div class="controls">
+        <input id="course-search" type="search" placeholder="Search code, title, or professor">
+        <select id="course-level">
+          <option value="">All Levels</option>
+          <option value="20000">20000s</option>
+          <option value="30000">30000s</option>
+          <option value="40000">40000s</option>
+        </select>
+        <select id="course-format">
+          <option value="">All Formats</option>
+          <option value="In Person">In Person</option>
+          <option value="Online">Online</option>
+        </select>
+        <select id="course-sort">
+          <option value="rating-desc">RMP Rating High to Low</option>
+          <option value="rating-asc">RMP Rating Low to High</option>
+          <option value="difficulty-asc">Difficulty Easy to Hard</option>
+          <option value="difficulty-desc">Difficulty Hard to Easy</option>
+        </select>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Course Code</th>
+              <th>Course Name</th>
+              <th>Section</th>
+              <th>Format</th>
+              <th>Schedule</th>
+              <th>Enrollment Cap</th>
+              <th>Seats Available</th>
+              <th>Professor</th>
+              <th>RMP Rating</th>
+              <th>RMP Difficulty</th>
+              <th>Would Take Again</th>
+              <th>RMP Data</th>
+            </tr>
+          </thead>
+          <tbody id="course-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Course data source: CRJU sections CSV converted to JSON.</p>
+  </footer>
+
+  <script src="../scripts/nav.js"></script>
+  <script src="../scripts/course-explorer.js"></script>
+</body>
+</html>

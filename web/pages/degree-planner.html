@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrogPath | Degree Planner</title>
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="../index.html">FrogPath</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../index.html">Home</a>
+        <a href="degree-planner.html">Degree Planner</a>
+        <a href="course-explorer.html">Course Explorer</a>
+        <a href="professor-explorer.html">Professor Explorer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="page-title">Criminal Justice BCJ Degree Planner</h1>
+    <p class="muted">Mark completed requirements to track progress toward 120 total semester hours. Progress is saved automatically in your browser.</p>
+
+    <section class="panel">
+      <div class="progress-shell" aria-label="Progress toward 120 hours">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+      <div class="stat-grid">
+        <article class="stat-card">
+          <span id="hours-completed" class="stat-value">0</span>
+          <span>Hours Completed</span>
+        </article>
+        <article class="stat-card">
+          <span id="hours-remaining" class="stat-value">120</span>
+          <span>Hours Remaining</span>
+        </article>
+        <article class="stat-card">
+          <span id="hours-percent" class="stat-value">0%</span>
+          <span>Percent to 120</span>
+        </article>
+      </div>
+      <button id="reset-progress" type="button">Reset Planner Progress</button>
+    </section>
+
+    <section id="planner-root"></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>FrogPath stores checklist state in localStorage on this browser.</p>
+  </footer>
+
+  <script src="../scripts/nav.js"></script>
+  <script src="../scripts/degree-planner.js"></script>
+</body>
+</html>

@@ -1,175 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FrogPath – Criminal Justice Explorer</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrogPath | TCU Degree Planning</title>
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-
-  <!-- ── Header ──────────────────────────────────────────────── -->
-  <header>
-    <div class="header-inner">
-      <span class="logo">🐸 FrogPath</span>
-      <nav>
-        <a href="#professors">Professors</a>
-        <a href="#insights">Insights</a>
-        <a href="#classes">Classes</a>
-        <a href="#about">About</a>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="index.html">FrogPath</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="pages/degree-planner.html">Degree Planner</a>
+        <a href="pages/course-explorer.html">Course Explorer</a>
+        <a href="pages/professor-explorer.html">Professor Explorer</a>
       </nav>
     </div>
   </header>
 
-  <!-- ── Hero ────────────────────────────────────────────────── -->
-  <section class="hero">
-     <h1>Criminal Justice at TCU</h1>
-     <p>Explore criminal justice class sections, professor ratings, and schedule details
-       from the dataset you uploaded.</p>
-    <a class="btn" href="#professors">Explore Professors</a>
-  </section>
+  <main>
+    <section class="hero">
+      <h1>FrogPath for TCU Students</h1>
+      <p>
+        FrogPath combines degree requirements, course section data, and Rate My Professor insights into one place so you can plan smarter without juggling tabs.
+      </p>
+      <a class="button" href="pages/degree-planner.html">Start Your BCJ Plan</a>
+    </section>
 
-  <!-- ── Stats Banner ─────────────────────────────────────────── -->
-  <section class="stats-banner" id="stats">
-    <div class="stat-card" id="stat-profs">
-      <span class="stat-number" id="num-profs">–</span>
-      <span class="stat-label">Unique Professors</span>
-    </div>
-    <div class="stat-card" id="stat-depts">
-      <span class="stat-number" id="num-depts">–</span>
-      <span class="stat-label">Class Sections</span>
-    </div>
-    <div class="stat-card">
-      <span class="stat-number" id="avg-rating">–</span>
-      <span class="stat-label">Average Rating</span>
-    </div>
-    <div class="stat-card">
-      <span class="stat-number" id="avg-difficulty">–</span>
-      <span class="stat-label">Average Difficulty</span>
-    </div>
-  </section>
+    <section class="grid-2">
+      <article class="panel">
+        <h2 class="page-title">Why FrogPath Exists</h2>
+        <p class="muted">
+          TCU students often piece together planning from advising sheets, course search tools, and external professor rating sites. FrogPath unifies those workflows in one interface built by students, for students.
+        </p>
+      </article>
+      <article class="panel">
+        <h2 class="page-title">What You Can Do</h2>
+        <ul>
+          <li>Track BCJ graduation requirements toward 120 total hours.</li>
+          <li>Search and filter Criminal Justice sections by level and format.</li>
+          <li>Compare professors by rating, difficulty, and retake percentage.</li>
+        </ul>
+      </article>
+    </section>
 
-  <!-- ── Professor Search ──────────────────────────────────────── -->
-  <section class="section" id="professors">
-    <h2>Criminal Justice Professors</h2>
+    <section class="stat-grid" aria-label="FrogPath stats">
+      <article class="stat-card">
+        <span id="home-pages" class="stat-value">0</span>
+        <span>Core Pages</span>
+      </article>
+      <article class="stat-card">
+        <span id="home-hours" class="stat-value">0</span>
+        <span>Total Degree Hours</span>
+      </article>
+      <article class="stat-card">
+        <span id="home-sections" class="stat-value">0</span>
+        <span>Tracked CRJU Sections</span>
+      </article>
+    </section>
+  </main>
 
-    <div class="controls">
-      <input id="search-input" type="text" placeholder="Search by professor or course…" />
-      <select id="dept-filter">
-        <option value="">All Courses</option>
-      </select>
-      <select id="sort-select">
-        <option value="rating-desc">Highest Rating</option>
-        <option value="rating-asc">Lowest Rating</option>
-        <option value="difficulty-asc">Easiest First</option>
-        <option value="difficulty-desc">Hardest First</option>
-        <option value="sections-desc">Most Sections</option>
-      </select>
-    </div>
-
-    <div id="prof-grid" class="card-grid">
-      <!-- Populated by JS -->
-      <p class="loading">Loading professor data…</p>
-    </div>
-  </section>
-
-  <!-- ── Professor Insights ─────────────────────────────────────── -->
-  <section class="section section-alt" id="insights">
-    <h2>Professor Insights</h2>
-    <div class="chart-grid">
-      <div class="chart-box">
-        <h3>Top Rated Professors</h3>
-        <canvas id="chart-ratings"></canvas>
-      </div>
-      <div class="chart-box">
-        <h3>Easiest Professors</h3>
-        <canvas id="chart-difficulty"></canvas>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Class Schedule ─────────────────────────────────────────── -->
-  <section class="section" id="classes">
-    <h2>Class Schedule</h2>
-
-    <div class="controls">
-      <input id="course-search" type="text" placeholder="Search classes or professors…" />
-      <select id="course-dept-filter">
-        <option value="">All Formats</option>
-      </select>
-      <select id="semester-filter">
-        <option value="">Any Status</option>
-        <option value="Open">Open</option>
-        <option value="DeptPermit">Dept Permit</option>
-      </select>
-    </div>
-
-    <div class="table-wrap">
-      <table id="course-table">
-        <thead>
-          <tr>
-            <th>Course</th>
-            <th>Section</th>
-            <th>Title</th>
-            <th>Format</th>
-            <th>Schedule</th>
-            <th>Status</th>
-            <th>Enrollment</th>
-            <th>Professor</th>
-            <th>Rating</th>
-            <th>Difficulty</th>
-            <th>Would Take Again</th>
-          </tr>
-        </thead>
-        <tbody id="course-tbody">
-          <tr><td colspan="11" class="loading">Loading class data…</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <!-- ── About ──────────────────────────────────────────────────── -->
-  <section class="section section-alt" id="about">
-    <h2>About FrogPath</h2>
-    <div class="about-content">
-      <p>FrogPath is now focused on Criminal Justice classes and professors pulled
-        from the CSV you uploaded.</p>
-      <p>The tool combines section-level class data with professor ratings and difficulty scores.</p>
-      <ul>
-        <li><strong>Class sections</strong> – course code, title, meeting time, status, enrollment cap, and seat count.</li>
-        <li><strong>Professor ratings</strong> – overall rating, difficulty, and would-take-again scores where available.</li>
-      </ul>
-      <p>Data is analyzed with Python and exported as JSON files consumed by this static front-end. The site is hosted on
-         <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.</p>
-      <h3>Project Structure</h3>
-      <pre class="code-block">Finalproject/
-├── data/
-│   ├── raw/           ← original CSV datasets
-│   └── processed/     ← cleaned intermediate files
-├── analysis/
-│   ├── rmp_analysis.py         ← standalone Python script
-│   └── rmp_exploration.ipynb   ← Jupyter notebook
-├── outputs/
-│   ├── rmp_clean.json
-│   ├── dept_avg_ratings.json
-│   ├── dept_avg_difficulty.json
-│   ├── rated_vs_unrated.json
-│   └── figures/       ← saved chart images
-└── web/               ← this front-end (GitHub Pages root)
-    ├── index.html
-    ├── css/styles.css
-    └── js/app.js</pre>
-    </div>
-  </section>
-
-  <!-- ── Footer ──────────────────────────────────────────────────── -->
-  <footer>
-     <p>🐸 FrogPath · Criminal Justice focus ·
-       Data source: uploaded Criminal Justice CSV</p>
+  <footer class="site-footer">
+    <p>FrogPath | TCU Criminal Justice Planning Tool</p>
   </footer>
 
-  <!-- Chart.js CDN (no build step required) -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-  <script src="js/app.js"></script>
+  <script src="scripts/nav.js"></script>
+  <script src="scripts/home.js"></script>
 </body>
 </html>
