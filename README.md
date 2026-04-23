@@ -30,22 +30,21 @@ Finalproject/
 │   ├── course_bottlenecks.json
 │   └── figures/                 ← saved chart images (PNG)
 │
-└── web/                         ← GitHub Pages front-end
-    ├── index.html
-    ├── pages/
-    │   ├── degree-planner.html
-    │   ├── course-explorer.html
-    │   └── professor-explorer.html
-    ├── scripts/
-    │   ├── nav.js
-    │   ├── home.js
-    │   ├── degree-planner.js
-    │   ├── course-explorer.js
-    │   └── professor-explorer.js
-    ├── styles/main.css
-    └── data/
-        ├── courses.json
-        └── professors.json
+├── index.html                    ← GitHub Pages entry point
+├── pages/
+│   ├── degree-planner.html
+│   ├── course-explorer.html
+│   └── professor-explorer.html
+├── scripts/
+│   ├── nav.js
+│   ├── home.js
+│   ├── degree-planner.js
+│   ├── course-explorer.js
+│   └── professor-explorer.js
+├── styles/main.css
+└── data/
+    ├── courses.json
+    └── professors.json
 ```
 
 ---
@@ -76,21 +75,22 @@ jupyter lab analysis/rmp_exploration.ipynb
 
 ### 3 · View the web app locally
 
-Open `web/index.html` in your browser, **or** serve the repo root with a simple HTTP server so the JSON files are reachable:
+Open `index.html` in your browser, **or** serve the repo root with a simple HTTP server so the JSON files are reachable:
 
 ```bash
 python -m http.server 8000
-# then open http://localhost:8000/web/
+# then open http://localhost:8000/
 ```
 
 ### 4 · Deploy to GitHub Pages
 
-GitHub Pages must publish from wherever `index.html` lives.
+GitHub Pages should now publish from the repository root, since `index.html` lives there.
 
-- If your Pages settings allow selecting a folder, set it to `web/`.
-- If your Pages settings only support root or `docs/`, move the contents of `web/` to repo root (or into `docs/`) so Pages can find `index.html`.
+- Settings > Pages > Source: Deploy from a branch.
+- Branch: your main branch.
+- Folder: `/ (root)`.
 
-If Pages is pointing at repo root while `index.html` is still inside `web/`, your site URL will not load the app correctly.
+If Pages is still pointing at a subfolder, change it to root so the site can load `index.html` correctly.
 
 ---
 
