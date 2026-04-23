@@ -32,8 +32,20 @@ Finalproject/
 │
 └── web/                         ← GitHub Pages front-end
     ├── index.html
-    ├── css/styles.css
-    └── js/app.js
+    ├── pages/
+    │   ├── degree-planner.html
+    │   ├── course-explorer.html
+    │   └── professor-explorer.html
+    ├── scripts/
+    │   ├── nav.js
+    │   ├── home.js
+    │   ├── degree-planner.js
+    │   ├── course-explorer.js
+    │   └── professor-explorer.js
+    ├── styles/main.css
+    └── data/
+        ├── courses.json
+        └── professors.json
 ```
 
 ---
@@ -73,7 +85,12 @@ python -m http.server 8000
 
 ### 4 · Deploy to GitHub Pages
 
-In your repository settings enable GitHub Pages and set the source to the `web/` folder (or root if you move `index.html` there).
+GitHub Pages must publish from wherever `index.html` lives.
+
+- If your Pages settings allow selecting a folder, set it to `web/`.
+- If your Pages settings only support root or `docs/`, move the contents of `web/` to repo root (or into `docs/`) so Pages can find `index.html`.
+
+If Pages is pointing at repo root while `index.html` is still inside `web/`, your site URL will not load the app correctly.
 
 ---
 
