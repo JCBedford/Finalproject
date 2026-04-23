@@ -20,8 +20,37 @@
   </header>
 
   <main>
-    <h1 class="page-title">Criminal Justice BCJ Degree Planner</h1>
-    <p class="muted">Mark completed requirements to track progress toward 120 total semester hours. Progress is saved automatically in your browser.</p>
+    <h1 id="planner-title" class="page-title">Criminal Justice BCJ Degree Planner</h1>
+    <p id="planner-summary" class="muted">Mark completed requirements to track progress toward 120 total semester hours. Switch to minor view to track the 18-hour Criminology and Criminal Justice minor.</p>
+
+    <section class="panel planner-toolbar" aria-label="Planner controls">
+      <div class="planner-toolbar-row">
+        <div>
+          <p class="eyebrow">Planner View</p>
+          <div class="view-toggle" role="tablist" aria-label="Degree planner view">
+            <button id="major-view-btn" class="mode-toggle-btn active" type="button" aria-pressed="true">Major</button>
+            <button id="minor-view-btn" class="mode-toggle-btn" type="button" aria-pressed="false">Minor</button>
+          </div>
+        </div>
+
+        <div class="planner-meta-fields">
+          <label class="planner-field" for="student-name">
+            Student Name
+            <input id="student-name" type="text" name="student-name" placeholder="Optional for the PDF">
+          </label>
+
+          <fieldset class="interest-fieldset" aria-label="Career interests for recommendations">
+            <legend>Interests (for recommendations)</legend>
+            <div id="interest-options" class="interest-options"></div>
+          </fieldset>
+        </div>
+      </div>
+
+      <div class="planner-actions">
+        <button id="download-advising-form" type="button">Download Advising Form</button>
+        <button id="reset-progress" type="button" class="secondary-button">Reset Planner Progress</button>
+      </div>
+    </section>
 
     <section class="panel">
       <div class="progress-shell" aria-label="Progress toward 120 hours">
@@ -41,7 +70,53 @@
           <span>Percent to 120</span>
         </article>
       </div>
-      <button id="reset-progress" type="button">Reset Planner Progress</button>
+      <p id="data-freshness" class="muted data-freshness">Course data status: Loading...</p>
+    </section>
+
+    <section class="panel recommender-panel" aria-label="Recommended courses">
+      <div class="req-header">
+        <h3>Recommended Next Courses</h3>
+        <span class="req-meta">Personalized from your progress and interests</span>
+      </div>
+
+      <div class="recommendation-controls">
+        <label class="planner-field" for="target-hours">
+          Target Hours Next Semester
+          <input id="target-hours" type="number" min="3" max="18" step="1" value="15">
+        </label>
+
+        <label class="planner-field" for="filter-format">
+          Preferred Format
+          <select id="filter-format">
+            <option value="">Any format</option>
+            <option value="In Person">In person only</option>
+            <option value="Online">Online only</option>
+            <option value="Hybrid">Hybrid only</option>
+          </select>
+        </label>
+
+        <label class="filter-inline" for="filter-open-seats">
+          <input id="filter-open-seats" type="checkbox" checked>
+          Only show sections with open seats
+        </label>
+
+        <label class="filter-inline" for="filter-no-evening">
+          <input id="filter-no-evening" type="checkbox">
+          Avoid evening classes
+        </label>
+
+        <button id="refresh-recommendations" type="button" class="secondary-button" aria-label="Refresh recommendations">Refresh Recommendations</button>
+      </div>
+
+      <ul id="recommendation-list" class="recommendation-list"></ul>
+    </section>
+
+    <section class="panel" aria-label="Completed course timeline">
+      <div class="req-header">
+        <h3>Completed Course Timeline</h3>
+        <span class="req-meta">Lock completed courses to a term for advising context</span>
+      </div>
+      <div id="timeline-root" class="timeline-list"></div>
     </section>
 
     <section id="planner-root"></section>

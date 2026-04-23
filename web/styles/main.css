@@ -143,8 +143,208 @@ button:hover {
   color: var(--tcu-purple-ink);
 }
 
+.eyebrow {
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.76rem;
+  color: var(--muted);
+}
+
 .muted {
   color: var(--muted);
+}
+
+.planner-toolbar {
+  margin-bottom: 1rem;
+}
+
+.planner-toolbar-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.view-toggle {
+  display: inline-flex;
+  padding: 0.2rem;
+  background: #f4edf9;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  gap: 0.2rem;
+}
+
+.mode-toggle-btn {
+  background: transparent;
+  color: var(--tcu-purple-ink);
+  border-radius: 999px;
+  padding: 0.5rem 0.95rem;
+  box-shadow: none;
+}
+
+.mode-toggle-btn.active {
+  background: var(--tcu-purple);
+  color: #fff;
+}
+
+.planner-field {
+  display: grid;
+  gap: 0.35rem;
+  min-width: min(100%, 280px);
+  font-weight: 600;
+  color: var(--tcu-purple-ink);
+}
+
+.planner-meta-fields {
+  display: grid;
+  gap: 0.7rem;
+  width: min(100%, 560px);
+}
+
+.interest-fieldset {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.55rem 0.65rem 0.65rem;
+}
+
+.interest-fieldset legend {
+  color: var(--tcu-purple-ink);
+  font-weight: 700;
+  padding: 0 0.25rem;
+  font-size: 0.92rem;
+}
+
+.interest-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.interest-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.82rem;
+  color: var(--tcu-purple-ink);
+  background: #fff;
+}
+
+.interest-chip input {
+  width: auto;
+}
+
+.planner-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+}
+
+.data-freshness {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+}
+
+.recommender-panel {
+  margin-bottom: 1rem;
+}
+
+.recommendation-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 0.65rem;
+  margin-bottom: 0.8rem;
+}
+
+.filter-inline {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.55rem 0.65rem;
+  color: var(--tcu-purple-ink);
+  font-weight: 600;
+}
+
+.filter-inline input {
+  width: auto;
+}
+
+.recommendation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.recommendation-item {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  padding: 0.65rem;
+}
+
+.recommendation-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.recommendation-title {
+  color: var(--tcu-purple-ink);
+  font-weight: 800;
+  margin: 0;
+}
+
+.recommendation-meta {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.reason-pill {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.24rem 0.48rem;
+  border-radius: 999px;
+  background: #f4edf9;
+  color: var(--tcu-purple-ink);
+  font-size: 0.78rem;
+  border: 1px solid var(--line);
+}
+
+.timeline-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.timeline-item {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.55rem 0.65rem;
+  display: grid;
+  grid-template-columns: 1fr minmax(170px, 220px);
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.timeline-empty {
+  margin: 0;
+}
+
+.secondary-button {
+  background: #fff;
+  color: var(--tcu-purple-ink);
+  border: 1px solid var(--line);
 }
 
 .controls {
@@ -333,12 +533,45 @@ th {
   .grid-2 {
     grid-template-columns: 1fr;
   }
+
+  .recommendation-controls {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 640px) {
   .nav-inner {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .planner-toolbar-row {
+    align-items: stretch;
+  }
+
+  .view-toggle {
+    width: 100%;
+  }
+
+  .view-toggle .mode-toggle-btn {
+    flex: 1;
+  }
+
+  .planner-field {
+    width: 100%;
+  }
+
+  .planner-meta-fields {
+    width: 100%;
+  }
+
+  .interest-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .timeline-item {
+    grid-template-columns: 1fr;
   }
 
   .stat-grid {
