@@ -547,6 +547,35 @@ th {
   color: var(--muted);
 }
 
+.research-header {
+  margin-top: 0.8rem;
+}
+
+.toc-panel {
+  margin-top: 1rem;
+}
+
+.research-toc {
+  margin: 0.4rem 0 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.research-article {
+  margin-top: 1rem;
+}
+
+.research-article p,
+.research-article li {
+  line-height: 1.7;
+}
+
+.research-article ul {
+  margin: 0.5rem 0 0.8rem;
+  padding-left: 1.2rem;
+}
+
 @media (max-width: 900px) {
   .controls {
     grid-template-columns: 1fr 1fr;

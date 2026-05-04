@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FrogPath | Research Write-Up</title>
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-inner">
+      <a class="brand" href="../index.html">FrogPath</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../index.html">Home</a>
+        <a href="degree-planner.html">Degree Planner</a>
+        <a href="course-explorer.html">Course Explorer</a>
+        <a href="professor-explorer.html">Professor Explorer</a>
+        <a href="research-writeup.html">Research</a>
+        <a href="works-cited.html">Works Cited</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel research-header">
+      <p class="eyebrow">Final Project Research</p>
+      <h1 class="page-title">FrogPath: Student-Centered Degree Planning for TCU Criminal Justice</h1>
+      <p class="muted">This page documents the written research component for the FrogPath capstone, including methodology, literature context, preliminary findings, and project scope decisions.</p>
+    </section>
+
+    <section class="panel toc-panel" aria-label="Research section navigation">
+      <h2 class="page-title">Table of Contents</h2>
+      <ol class="research-toc">
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#literature-review">Literature Review</a></li>
+        <li><a href="#research-methodology">Research Methodology</a></li>
+        <li><a href="#data-collection">Data Collection</a></li>
+        <li><a href="#data-analysis">Data Analysis</a></li>
+        <li><a href="#ai-tool-usage">AI Tool Usage</a></li>
+        <li><a href="#scope-decisions">Scope Decisions</a></li>
+        <li><a href="#analysis-findings">Analysis and Findings</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ol>
+    </section>
+
+    <article class="panel research-article" id="introduction">
+      <h2 class="page-title">Introduction</h2>
+      <p>Every semester at TCU, the same scene plays out across residence halls, libraries, and group chats: students preparing for registration switch between tabs with the undergraduate course catalog in one window, Stellic in another, Rate My Professors in a third, and a text thread asking friends whether a professor is worth taking. This fragmented experience is more than an inconvenience. It reflects a structural gap between the planning tools universities provide and the integrated experience students need to make informed academic decisions.</p>
+      <p>FrogPath is a student-built, data-driven web application designed to address that gap for TCU Criminal Justice students. By aggregating degree requirements, course scheduling data, and Rate My Professors ratings into one interface, FrogPath aims to reduce planning friction and make already sought information available in one coherent place.</p>
+      <p>This project investigates the gap between available planning tools and actual student information needs while navigating degree requirements, course scheduling, and professor selection. Through analysis of publicly available TCU course catalog data and Rate My Professors datasets, the project quantifies where current tools fall short and uses those findings to inform FrogPath design and development.</p>
+    </article>
+
+    <article class="panel research-article" id="literature-review">
+      <h2 class="page-title">Literature Review</h2>
+      <p>The problem FrogPath addresses sits at the intersection of three areas of scholarship: learning analytics and student success technology, critiques of educational technology design, and empirical work on how students use academic planning tools.</p>
+      <p>Arnold and Pistilli's work on Purdue University's Course Signals showed that data-driven tools built around student academic history can improve outcomes when delivered through intuitive interfaces (Arnold and Pistilli). Their findings support FrogPath's core premise that institutional data aggregation can reduce information gaps for students. At the same time, later critiques of retention claims in early learning analytics systems underscore the importance of making careful, bounded claims about tool impact.</p>
+      <p>Dahlstrom and Bichsel's ECAR study of over 75,000 undergraduates found that technology is deeply embedded in student life, but academic technology use is often broad rather than deep (Dahlstrom and Bichsel). Students reported high expectations for reliable, anytime access to systems that directly support planning and learning, which supports the practical case for a tool like FrogPath.</p>
+      <p>Karp identifies four non-academic support mechanisms that improve outcomes: creating connections, clarifying goals, building college know-how, and helping students feel valued (Karp). This framework highlights a real limit for FrogPath: delivering information is not equivalent to advising interpretation.</p>
+      <p>Noble provides the sharpest ethical challenge to the project by arguing that algorithmic outputs are not neutral and can reproduce social inequities (Noble). This concern applies directly to Rate My Professors data. If social bias shapes ratings, presenting those ratings without context risks reproducing those distortions in student planning behavior.</p>
+      <p>Selwyn and Watters offer broader historical critiques of techno-optimism in education technology and caution against overpromising digital solutions (Selwyn; Watters). Their work informs a core design principle of this project: practical usefulness must be prioritized over inflated claims.</p>
+      <p>Bleske-Rechek and Michels provide direct empirical relevance by showing that RateMyProfessors.com users can distinguish course ease from teaching quality, while still revealing limits in how ratings should be compared across contexts (Bleske-Rechek and Michels). This supports using RMP as an input rather than as a definitive measure of instructional quality.</p>
+    </article>
+
+    <article class="panel research-article" id="research-methodology">
+      <h2 class="page-title">Research Methodology</h2>
+      <p>This project uses a hybrid methodology that combines quantitative data analysis with qualitative evaluation of existing academic planning workflows. The process was organized into three phases: data collection, data analysis, and deliverable development.</p>
+    </article>
+
+    <article class="panel research-article" id="data-collection">
+      <h2 class="page-title">Data Collection</h2>
+      <p>The primary dataset was built from two sources. First, TCU Criminal Justice course data were collected from the classes.tcu.edu scheduling system using a table scraper workflow, producing a CSV of 64 course sections with course code, title, section number, delivery format, meeting time, enrollment cap, and available seats. Second, Rate My Professors data were collected for identifiable Criminal Justice faculty.</p>
+      <p>The original plan was to use a Python package for automated RMP retrieval, but version incompatibilities prevented reliable collection. Data were therefore compiled manually from each professor profile, including quality rating, difficulty score, estimated time commitment, and listed courses. Two professors, James Van Gorkem and James Marquat, had no RMP profile presence. In this project, those absences are treated as meaningful coverage limitations rather than simple missing values.</p>
+    </article>
+
+    <article class="panel research-article" id="data-analysis">
+      <h2 class="page-title">Data Analysis</h2>
+      <p>Cleaning and analysis were conducted in Python with pandas following workflow practices described by McKinney (McKinney). The cleaned dataset was used to examine three questions:</p>
+      <ul>
+        <li>Which courses are offered infrequently or in constrained time windows, creating possible scheduling bottlenecks?</li>
+        <li>How do professor rating and difficulty distributions vary across the department?</li>
+        <li>What percentage of active faculty have meaningful RMP coverage?</li>
+      </ul>
+      <p>Outputs were structured as JSON artifacts for direct use in the web application interface and visual summaries.</p>
+    </article>
+
+    <article class="panel research-article" id="ai-tool-usage">
+      <h2 class="page-title">AI Tool Usage</h2>
+      <p>This project used AI tools for execution support after core research and design choices were established. Claude (Anthropic) was used as a writing and editing assistant for structured documents such as the project proposal and annotated bibliography. Source discovery, source reading, relevance decisions, and argument design were completed independently before AI-assisted drafting and revision.</p>
+      <p>GitHub Copilot in VS Code was used to accelerate implementation tasks for the FrogPath web application, including starter scaffolding and code refinement based on explicit feature specifications. Prompts were grounded in design decisions made beforehand.</p>
+      <p>The intellectual core of FrogPath, defining the research problem, narrowing scope to Criminal Justice, designing and cleaning the dataset, and deciding which features would be useful to students, was completed without AI systems making those decisions. AI support was used for execution speed, not project direction.</p>
+    </article>
+
+    <article class="panel research-article" id="scope-decisions">
+      <h2 class="page-title">Scope Decisions</h2>
+      <p>The project was deliberately scoped to TCU Criminal Justice rather than the full university for two reasons. First, a single-department boundary made manual data collection feasible within one semester. Second, domain familiarity as a graduating senior and prior researcher enabled better judgment on data quality and edge cases than a broad university-wide scope would have allowed.</p>
+    </article>
+
+    <article class="panel research-article" id="analysis-findings">
+      <h2 class="page-title">Analysis and Findings</h2>
+      <p class="muted"><strong>Note:</strong> This section presents preliminary findings while final Python visualizations are still being integrated.</p>
+      <p>The Criminal Justice course dataset contains 64 sections across 29 distinct course titles. Introduction to Criminal Justice (CRJU 20413) has the highest section count at 10, reflecting its role as a gateway course for majors and non-majors. Several upper-division courses appear only once in the schedule, including Institutional Corrections (CRJU 30383), Federal Law Enforcement (CRJU 30633), and Wrongful Convictions (CRJU 30983). For students depending on these courses for distribution or elective planning, single-section availability creates scheduling risk.</p>
+      <p>On the professor side, 15 of 17 identifiable faculty have RMP entries, or about 88% coverage. Coverage depth varies substantially. Some faculty show broad rating histories across many sections, while others have sparse samples. The two faculty with no RMP records, Van Gorkem and Marquat, both teach specialized upper-division sections, leaving students with fewer peer-generated signals for those courses.</p>
+      <p>Department-level ratings range from 2.5 to 5.0, and difficulty scores range from 1.5 to 4.5. A general pattern links higher difficulty with lower overall ratings, but the relationship is not uniform, which aligns with prior findings that students can distinguish perceived difficulty from instructional quality (Bleske-Rechek and Michels). Final distribution visualizations and cross-tabulations will be integrated in the completed submission build.</p>
+    </article>
+
+    <article class="panel research-article" id="conclusion">
+      <h2 class="page-title">Conclusion</h2>
+      <p>FrogPath addresses a practical but consequential problem: students should not need multiple disconnected browser tabs to make routine registration decisions. Project data indicate that this friction is real and measurable. Scheduling gaps create completion risk for requirement-dependent students. Professor coverage is incomplete in ways that particularly affect upper-division planning. Existing tools still require students to assemble a decision picture manually from disconnected systems.</p>
+      <p>Whether FrogPath fully solves this problem should ultimately be evaluated through usability outcomes rather than argument alone. The most important test is whether a first-time user leaves a planning session more informed and less confused than they would have been otherwise.</p>
+      <p>The broader contribution of this project is methodological as well as practical. Treating degree-planning friction as a data-structuring and information-design problem opens opportunities for extension to other departments, institutions, and student decision contexts. It also raises durable questions about ethics in student-facing analytics, the limits of peer rating systems, and who benefits when institutions invest in education technology.</p>
+      <p>For complete references, see <a href="works-cited.html">Works Cited</a>.</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>FrogPath | TCU Criminal Justice Planning Tool</p>
+    <p class="muted">Research content updated: May 2026</p>
+  </footer>
+
+  <script src="../scripts/nav.js"></script>
+</body>
+</html>
